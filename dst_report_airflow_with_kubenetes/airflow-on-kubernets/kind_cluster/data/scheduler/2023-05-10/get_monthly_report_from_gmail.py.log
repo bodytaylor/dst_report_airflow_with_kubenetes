@@ -1,0 +1,1190 @@
+[2023-05-10 16:09:27,823] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:09:27,824] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:09:27,826] {logging_mixin.py:115} INFO - [2023-05-10 16:09:27,826] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:09:28,700] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:09:28,736] {logging_mixin.py:115} INFO - [2023-05-10 16:09:28,736] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:09:28,747] {logging_mixin.py:115} INFO - [2023-05-10 16:09:28,747] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:09:28,761] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.941 seconds
+[2023-05-10 16:09:58,965] {processor.py:153} INFO - Started process (PID=61) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:09:58,966] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:09:58,968] {logging_mixin.py:115} INFO - [2023-05-10 16:09:58,968] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:09:59,277] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:09:59,300] {logging_mixin.py:115} INFO - [2023-05-10 16:09:59,300] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:09:59,314] {logging_mixin.py:115} INFO - [2023-05-10 16:09:59,314] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:09:59,327] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.366 seconds
+[2023-05-10 16:10:30,132] {processor.py:153} INFO - Started process (PID=76) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:10:30,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:10:30,136] {logging_mixin.py:115} INFO - [2023-05-10 16:10:30,136] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:10:30,533] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:10:30,559] {logging_mixin.py:115} INFO - [2023-05-10 16:10:30,559] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:10:30,574] {logging_mixin.py:115} INFO - [2023-05-10 16:10:30,574] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:10:30,587] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.463 seconds
+[2023-05-10 16:11:22,305] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:11:22,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:11:22,307] {logging_mixin.py:115} INFO - [2023-05-10 16:11:22,307] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:11:23,010] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:11:23,035] {logging_mixin.py:115} INFO - [2023-05-10 16:11:23,035] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:11:23,050] {logging_mixin.py:115} INFO - [2023-05-10 16:11:23,050] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:11:23,063] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.760 seconds
+[2023-05-10 16:11:53,195] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:11:53,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:11:53,197] {logging_mixin.py:115} INFO - [2023-05-10 16:11:53,197] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:11:53,529] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:11:53,554] {logging_mixin.py:115} INFO - [2023-05-10 16:11:53,554] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:11:53,567] {logging_mixin.py:115} INFO - [2023-05-10 16:11:53,567] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:11:53,579] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.388 seconds
+[2023-05-10 16:12:23,717] {processor.py:153} INFO - Started process (PID=71) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:12:23,719] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:12:23,720] {logging_mixin.py:115} INFO - [2023-05-10 16:12:23,720] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:12:24,380] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:12:24,408] {logging_mixin.py:115} INFO - [2023-05-10 16:12:24,408] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:12:24,426] {logging_mixin.py:115} INFO - [2023-05-10 16:12:24,426] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:12:24,440] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.726 seconds
+[2023-05-10 16:12:54,560] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:12:54,561] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:12:54,562] {logging_mixin.py:115} INFO - [2023-05-10 16:12:54,562] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:12:54,954] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:12:54,976] {logging_mixin.py:115} INFO - [2023-05-10 16:12:54,976] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:12:54,993] {logging_mixin.py:115} INFO - [2023-05-10 16:12:54,993] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:12:55,007] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.450 seconds
+[2023-05-10 16:13:25,172] {processor.py:153} INFO - Started process (PID=106) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:13:25,173] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:13:25,175] {logging_mixin.py:115} INFO - [2023-05-10 16:13:25,175] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:13:25,854] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:13:25,881] {logging_mixin.py:115} INFO - [2023-05-10 16:13:25,881] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:13:25,897] {logging_mixin.py:115} INFO - [2023-05-10 16:13:25,897] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:13:25,907] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.744 seconds
+[2023-05-10 16:13:55,994] {processor.py:153} INFO - Started process (PID=122) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:13:55,995] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:13:55,996] {logging_mixin.py:115} INFO - [2023-05-10 16:13:55,996] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:13:56,399] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:13:56,427] {logging_mixin.py:115} INFO - [2023-05-10 16:13:56,427] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:13:56,445] {logging_mixin.py:115} INFO - [2023-05-10 16:13:56,445] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:13:56,459] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.467 seconds
+[2023-05-10 16:14:26,579] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:14:26,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:14:26,585] {logging_mixin.py:115} INFO - [2023-05-10 16:14:26,585] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:14:27,061] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:14:27,092] {logging_mixin.py:115} INFO - [2023-05-10 16:14:27,091] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:14:27,111] {logging_mixin.py:115} INFO - [2023-05-10 16:14:27,111] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:14:27,132] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.557 seconds
+[2023-05-10 16:14:57,302] {processor.py:153} INFO - Started process (PID=155) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:14:57,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:14:57,308] {logging_mixin.py:115} INFO - [2023-05-10 16:14:57,308] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:14:57,677] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:14:57,701] {logging_mixin.py:115} INFO - [2023-05-10 16:14:57,701] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:14:57,716] {logging_mixin.py:115} INFO - [2023-05-10 16:14:57,716] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:14:57,730] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.435 seconds
+[2023-05-10 16:15:27,887] {processor.py:153} INFO - Started process (PID=170) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:15:27,890] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:15:27,892] {logging_mixin.py:115} INFO - [2023-05-10 16:15:27,891] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:15:28,481] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:15:28,509] {logging_mixin.py:115} INFO - [2023-05-10 16:15:28,509] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:15:28,525] {logging_mixin.py:115} INFO - [2023-05-10 16:15:28,525] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:15:28,538] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.656 seconds
+[2023-05-10 16:15:58,773] {processor.py:153} INFO - Started process (PID=185) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:15:58,778] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:15:58,780] {logging_mixin.py:115} INFO - [2023-05-10 16:15:58,780] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:16:00,875] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:16:01,049] {logging_mixin.py:115} INFO - [2023-05-10 16:16:01,048] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:16:01,124] {logging_mixin.py:115} INFO - [2023-05-10 16:16:01,124] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:16:01,242] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 2.480 seconds
+[2023-05-10 16:16:31,529] {processor.py:153} INFO - Started process (PID=204) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:16:31,532] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:16:31,534] {logging_mixin.py:115} INFO - [2023-05-10 16:16:31,534] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:16:32,013] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:16:32,039] {logging_mixin.py:115} INFO - [2023-05-10 16:16:32,039] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:16:32,055] {logging_mixin.py:115} INFO - [2023-05-10 16:16:32,055] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:16:32,065] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.542 seconds
+[2023-05-10 16:16:59,261] {processor.py:153} INFO - Started process (PID=40) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:16:59,262] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:16:59,263] {logging_mixin.py:115} INFO - [2023-05-10 16:16:59,263] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:16:59,995] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:17:00,023] {logging_mixin.py:115} INFO - [2023-05-10 16:17:00,023] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:17:00,038] {logging_mixin.py:115} INFO - [2023-05-10 16:17:00,038] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:17:00,051] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.792 seconds
+[2023-05-10 16:17:30,382] {processor.py:153} INFO - Started process (PID=57) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:17:30,383] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:17:30,384] {logging_mixin.py:115} INFO - [2023-05-10 16:17:30,384] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:17:30,692] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:17:30,715] {logging_mixin.py:115} INFO - [2023-05-10 16:17:30,715] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:17:30,730] {logging_mixin.py:115} INFO - [2023-05-10 16:17:30,730] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:17:30,742] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.364 seconds
+[2023-05-10 16:18:00,868] {processor.py:153} INFO - Started process (PID=73) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:18:00,870] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:18:00,871] {logging_mixin.py:115} INFO - [2023-05-10 16:18:00,871] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:18:01,533] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:18:01,561] {logging_mixin.py:115} INFO - [2023-05-10 16:18:01,561] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:18:01,580] {logging_mixin.py:115} INFO - [2023-05-10 16:18:01,580] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:18:01,593] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.729 seconds
+[2023-05-10 16:18:31,694] {processor.py:153} INFO - Started process (PID=90) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:18:31,696] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:18:31,698] {logging_mixin.py:115} INFO - [2023-05-10 16:18:31,698] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:18:32,053] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:18:32,077] {logging_mixin.py:115} INFO - [2023-05-10 16:18:32,077] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:18:32,090] {logging_mixin.py:115} INFO - [2023-05-10 16:18:32,090] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:18:32,101] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.412 seconds
+[2023-05-10 16:19:02,257] {processor.py:153} INFO - Started process (PID=106) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:19:02,258] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:19:02,260] {logging_mixin.py:115} INFO - [2023-05-10 16:19:02,260] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:19:02,602] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:19:02,627] {logging_mixin.py:115} INFO - [2023-05-10 16:19:02,627] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:19:02,643] {logging_mixin.py:115} INFO - [2023-05-10 16:19:02,643] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:19:02,657] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.403 seconds
+[2023-05-10 16:19:32,815] {processor.py:153} INFO - Started process (PID=122) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:19:32,817] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:19:32,819] {logging_mixin.py:115} INFO - [2023-05-10 16:19:32,818] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:19:33,129] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:19:33,151] {logging_mixin.py:115} INFO - [2023-05-10 16:19:33,150] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:19:33,166] {logging_mixin.py:115} INFO - [2023-05-10 16:19:33,166] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:19:33,178] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.367 seconds
+[2023-05-10 16:20:03,303] {processor.py:153} INFO - Started process (PID=139) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:20:03,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:20:03,306] {logging_mixin.py:115} INFO - [2023-05-10 16:20:03,306] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:20:03,625] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:20:03,645] {logging_mixin.py:115} INFO - [2023-05-10 16:20:03,644] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:20:03,660] {logging_mixin.py:115} INFO - [2023-05-10 16:20:03,660] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:20:03,673] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.373 seconds
+[2023-05-10 16:20:33,804] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:20:33,806] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:20:33,807] {logging_mixin.py:115} INFO - [2023-05-10 16:20:33,807] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:20:34,272] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:20:34,297] {logging_mixin.py:115} INFO - [2023-05-10 16:20:34,296] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:20:34,312] {logging_mixin.py:115} INFO - [2023-05-10 16:20:34,312] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:20:34,324] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.526 seconds
+[2023-05-10 16:21:04,458] {processor.py:153} INFO - Started process (PID=170) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:21:04,460] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:21:04,461] {logging_mixin.py:115} INFO - [2023-05-10 16:21:04,461] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:21:04,782] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:21:04,804] {logging_mixin.py:115} INFO - [2023-05-10 16:21:04,804] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:21:04,820] {logging_mixin.py:115} INFO - [2023-05-10 16:21:04,820] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:21:04,832] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.377 seconds
+[2023-05-10 16:21:34,966] {processor.py:153} INFO - Started process (PID=186) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:21:34,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:21:34,969] {logging_mixin.py:115} INFO - [2023-05-10 16:21:34,969] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:21:35,361] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:21:35,388] {logging_mixin.py:115} INFO - [2023-05-10 16:21:35,388] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:21:35,406] {logging_mixin.py:115} INFO - [2023-05-10 16:21:35,406] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:21:35,422] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.459 seconds
+[2023-05-10 16:22:05,622] {processor.py:153} INFO - Started process (PID=202) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:22:05,624] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:22:05,626] {logging_mixin.py:115} INFO - [2023-05-10 16:22:05,625] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:22:06,089] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:22:06,124] {logging_mixin.py:115} INFO - [2023-05-10 16:22:06,124] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:22:06,143] {logging_mixin.py:115} INFO - [2023-05-10 16:22:06,143] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:22:06,157] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.541 seconds
+[2023-05-10 16:22:36,272] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:22:36,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:22:36,274] {logging_mixin.py:115} INFO - [2023-05-10 16:22:36,274] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:22:36,633] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:22:36,659] {logging_mixin.py:115} INFO - [2023-05-10 16:22:36,659] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:22:36,678] {logging_mixin.py:115} INFO - [2023-05-10 16:22:36,678] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:22:36,693] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.424 seconds
+[2023-05-10 16:23:06,865] {processor.py:153} INFO - Started process (PID=234) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:23:06,867] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:23:06,868] {logging_mixin.py:115} INFO - [2023-05-10 16:23:06,868] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:23:07,265] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:23:07,287] {logging_mixin.py:115} INFO - [2023-05-10 16:23:07,287] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:23:07,304] {logging_mixin.py:115} INFO - [2023-05-10 16:23:07,304] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:23:07,318] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.458 seconds
+[2023-05-10 16:23:37,431] {processor.py:153} INFO - Started process (PID=250) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:23:37,432] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:23:37,434] {logging_mixin.py:115} INFO - [2023-05-10 16:23:37,433] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:23:37,743] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:23:37,772] {logging_mixin.py:115} INFO - [2023-05-10 16:23:37,772] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:23:37,788] {logging_mixin.py:115} INFO - [2023-05-10 16:23:37,788] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:23:37,800] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.372 seconds
+[2023-05-10 16:24:07,961] {processor.py:153} INFO - Started process (PID=267) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:24:07,963] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:24:07,965] {logging_mixin.py:115} INFO - [2023-05-10 16:24:07,965] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:24:08,412] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:24:08,440] {logging_mixin.py:115} INFO - [2023-05-10 16:24:08,440] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:24:08,457] {logging_mixin.py:115} INFO - [2023-05-10 16:24:08,457] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:24:08,467] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.510 seconds
+[2023-05-10 16:24:38,592] {processor.py:153} INFO - Started process (PID=282) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:24:38,593] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:24:38,594] {logging_mixin.py:115} INFO - [2023-05-10 16:24:38,594] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:24:38,913] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:24:38,937] {logging_mixin.py:115} INFO - [2023-05-10 16:24:38,937] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:24:39,024] {logging_mixin.py:115} INFO - [2023-05-10 16:24:39,023] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:24:39,051] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.462 seconds
+[2023-05-10 16:25:09,204] {processor.py:153} INFO - Started process (PID=298) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:25:09,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:25:09,207] {logging_mixin.py:115} INFO - [2023-05-10 16:25:09,207] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:25:09,607] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:25:09,632] {logging_mixin.py:115} INFO - [2023-05-10 16:25:09,632] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:25:09,648] {logging_mixin.py:115} INFO - [2023-05-10 16:25:09,648] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:25:09,662] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.461 seconds
+[2023-05-10 16:25:39,971] {processor.py:153} INFO - Started process (PID=314) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:25:39,978] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:25:39,986] {logging_mixin.py:115} INFO - [2023-05-10 16:25:39,985] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:25:42,507] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:25:42,568] {logging_mixin.py:115} INFO - [2023-05-10 16:25:42,568] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:25:42,611] {logging_mixin.py:115} INFO - [2023-05-10 16:25:42,609] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:25:42,646] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 2.692 seconds
+[2023-05-10 16:26:12,869] {processor.py:153} INFO - Started process (PID=41) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:26:12,870] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:26:12,871] {logging_mixin.py:115} INFO - [2023-05-10 16:26:12,871] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:26:13,572] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:26:13,629] {logging_mixin.py:115} INFO - [2023-05-10 16:26:13,629] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:26:13,653] {logging_mixin.py:115} INFO - [2023-05-10 16:26:13,653] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:26:13,679] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.812 seconds
+[2023-05-10 16:26:43,805] {processor.py:153} INFO - Started process (PID=55) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:26:43,807] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:26:43,809] {logging_mixin.py:115} INFO - [2023-05-10 16:26:43,809] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:26:44,307] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:26:44,359] {logging_mixin.py:115} INFO - [2023-05-10 16:26:44,358] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:26:44,383] {logging_mixin.py:115} INFO - [2023-05-10 16:26:44,383] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:26:44,436] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.635 seconds
+[2023-05-10 16:27:14,738] {processor.py:153} INFO - Started process (PID=73) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:27:14,743] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:27:14,747] {logging_mixin.py:115} INFO - [2023-05-10 16:27:14,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:27:15,443] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:27:15,472] {logging_mixin.py:115} INFO - [2023-05-10 16:27:15,472] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:27:15,487] {logging_mixin.py:115} INFO - [2023-05-10 16:27:15,487] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:27:15,503] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.774 seconds
+[2023-05-10 16:27:45,621] {processor.py:153} INFO - Started process (PID=89) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:27:45,623] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:27:45,625] {logging_mixin.py:115} INFO - [2023-05-10 16:27:45,625] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:27:45,998] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:27:46,020] {logging_mixin.py:115} INFO - [2023-05-10 16:27:46,020] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:27:46,037] {logging_mixin.py:115} INFO - [2023-05-10 16:27:46,037] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:27:46,049] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.432 seconds
+[2023-05-10 16:28:16,200] {processor.py:153} INFO - Started process (PID=105) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:28:16,202] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:28:16,203] {logging_mixin.py:115} INFO - [2023-05-10 16:28:16,203] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:28:16,666] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:28:16,707] {logging_mixin.py:115} INFO - [2023-05-10 16:28:16,707] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:28:16,732] {logging_mixin.py:115} INFO - [2023-05-10 16:28:16,732] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:28:16,758] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.561 seconds
+[2023-05-10 16:28:46,884] {processor.py:153} INFO - Started process (PID=121) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:28:46,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:28:46,887] {logging_mixin.py:115} INFO - [2023-05-10 16:28:46,887] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:28:47,243] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:28:47,266] {logging_mixin.py:115} INFO - [2023-05-10 16:28:47,266] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:28:47,283] {logging_mixin.py:115} INFO - [2023-05-10 16:28:47,283] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:28:47,296] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.416 seconds
+[2023-05-10 16:29:17,446] {processor.py:153} INFO - Started process (PID=138) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:29:17,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:29:17,449] {logging_mixin.py:115} INFO - [2023-05-10 16:29:17,449] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:29:17,867] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:29:17,889] {logging_mixin.py:115} INFO - [2023-05-10 16:29:17,889] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:29:17,908] {logging_mixin.py:115} INFO - [2023-05-10 16:29:17,908] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:29:17,922] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.480 seconds
+[2023-05-10 16:29:48,090] {processor.py:153} INFO - Started process (PID=154) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:29:48,092] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:29:48,093] {logging_mixin.py:115} INFO - [2023-05-10 16:29:48,093] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:29:48,441] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:29:48,463] {logging_mixin.py:115} INFO - [2023-05-10 16:29:48,463] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:29:48,477] {logging_mixin.py:115} INFO - [2023-05-10 16:29:48,477] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:29:48,489] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.403 seconds
+[2023-05-10 16:30:18,679] {processor.py:153} INFO - Started process (PID=169) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:30:18,681] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:30:18,682] {logging_mixin.py:115} INFO - [2023-05-10 16:30:18,682] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:30:19,083] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:30:19,110] {logging_mixin.py:115} INFO - [2023-05-10 16:30:19,110] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:30:19,132] {logging_mixin.py:115} INFO - [2023-05-10 16:30:19,132] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:30:19,151] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.476 seconds
+[2023-05-10 16:30:49,273] {processor.py:153} INFO - Started process (PID=185) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:30:49,274] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:30:49,276] {logging_mixin.py:115} INFO - [2023-05-10 16:30:49,275] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:30:49,632] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:30:49,655] {logging_mixin.py:115} INFO - [2023-05-10 16:30:49,654] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:30:49,670] {logging_mixin.py:115} INFO - [2023-05-10 16:30:49,670] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:30:49,685] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.417 seconds
+[2023-05-10 16:31:19,853] {processor.py:153} INFO - Started process (PID=201) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:31:19,854] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:31:19,855] {logging_mixin.py:115} INFO - [2023-05-10 16:31:19,855] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:31:20,254] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:31:20,283] {logging_mixin.py:115} INFO - [2023-05-10 16:31:20,283] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:31:20,300] {logging_mixin.py:115} INFO - [2023-05-10 16:31:20,300] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:31:20,313] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.464 seconds
+[2023-05-10 16:31:50,451] {processor.py:153} INFO - Started process (PID=217) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:31:50,453] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:31:50,455] {logging_mixin.py:115} INFO - [2023-05-10 16:31:50,455] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:31:50,777] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:31:50,806] {logging_mixin.py:115} INFO - [2023-05-10 16:31:50,806] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:31:50,822] {logging_mixin.py:115} INFO - [2023-05-10 16:31:50,822] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:31:50,835] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.387 seconds
+[2023-05-10 16:32:20,969] {processor.py:153} INFO - Started process (PID=232) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:32:20,971] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:32:20,972] {logging_mixin.py:115} INFO - [2023-05-10 16:32:20,972] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:32:21,343] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:32:21,365] {logging_mixin.py:115} INFO - [2023-05-10 16:32:21,365] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:32:21,381] {logging_mixin.py:115} INFO - [2023-05-10 16:32:21,381] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:32:21,394] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.428 seconds
+[2023-05-10 16:32:51,542] {processor.py:153} INFO - Started process (PID=249) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:32:51,543] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:32:51,545] {logging_mixin.py:115} INFO - [2023-05-10 16:32:51,545] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:32:51,860] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:32:51,880] {logging_mixin.py:115} INFO - [2023-05-10 16:32:51,880] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:32:51,895] {logging_mixin.py:115} INFO - [2023-05-10 16:32:51,895] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:32:51,909] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.370 seconds
+[2023-05-10 16:33:22,017] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:33:22,019] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:33:22,019] {logging_mixin.py:115} INFO - [2023-05-10 16:33:22,019] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:33:22,342] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:33:22,363] {logging_mixin.py:115} INFO - [2023-05-10 16:33:22,363] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:33:22,377] {logging_mixin.py:115} INFO - [2023-05-10 16:33:22,376] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:33:22,387] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.372 seconds
+[2023-05-10 16:33:52,563] {processor.py:153} INFO - Started process (PID=281) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:33:52,565] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:33:52,566] {logging_mixin.py:115} INFO - [2023-05-10 16:33:52,566] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:33:52,948] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:33:52,971] {logging_mixin.py:115} INFO - [2023-05-10 16:33:52,971] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:33:52,987] {logging_mixin.py:115} INFO - [2023-05-10 16:33:52,987] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:33:53,000] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.444 seconds
+[2023-05-10 16:34:23,156] {processor.py:153} INFO - Started process (PID=299) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:34:23,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:34:23,160] {logging_mixin.py:115} INFO - [2023-05-10 16:34:23,160] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:34:23,477] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:34:23,498] {logging_mixin.py:115} INFO - [2023-05-10 16:34:23,498] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:34:23,514] {logging_mixin.py:115} INFO - [2023-05-10 16:34:23,513] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:34:23,525] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.372 seconds
+[2023-05-10 16:34:53,634] {processor.py:153} INFO - Started process (PID=313) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:34:53,636] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:34:53,637] {logging_mixin.py:115} INFO - [2023-05-10 16:34:53,637] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:34:53,943] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:34:53,965] {logging_mixin.py:115} INFO - [2023-05-10 16:34:53,965] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:34:53,980] {logging_mixin.py:115} INFO - [2023-05-10 16:34:53,980] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:34:53,992] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.360 seconds
+[2023-05-10 16:35:24,158] {processor.py:153} INFO - Started process (PID=329) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:35:24,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:35:24,161] {logging_mixin.py:115} INFO - [2023-05-10 16:35:24,161] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:35:24,465] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:35:24,486] {logging_mixin.py:115} INFO - [2023-05-10 16:35:24,486] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:35:24,502] {logging_mixin.py:115} INFO - [2023-05-10 16:35:24,502] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:35:24,515] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.361 seconds
+[2023-05-10 16:35:54,640] {processor.py:153} INFO - Started process (PID=345) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:35:54,641] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:35:54,642] {logging_mixin.py:115} INFO - [2023-05-10 16:35:54,642] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:35:54,950] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:35:54,973] {logging_mixin.py:115} INFO - [2023-05-10 16:35:54,973] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:35:54,987] {logging_mixin.py:115} INFO - [2023-05-10 16:35:54,987] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:35:55,002] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.364 seconds
+[2023-05-10 16:36:25,180] {processor.py:153} INFO - Started process (PID=361) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:36:25,182] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:36:25,183] {logging_mixin.py:115} INFO - [2023-05-10 16:36:25,183] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:36:25,496] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:36:25,517] {logging_mixin.py:115} INFO - [2023-05-10 16:36:25,517] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:36:25,532] {logging_mixin.py:115} INFO - [2023-05-10 16:36:25,532] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:36:25,545] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.368 seconds
+[2023-05-10 16:36:55,679] {processor.py:153} INFO - Started process (PID=378) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:36:55,681] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:36:55,683] {logging_mixin.py:115} INFO - [2023-05-10 16:36:55,683] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:36:55,992] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:36:56,013] {logging_mixin.py:115} INFO - [2023-05-10 16:36:56,013] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:36:56,030] {logging_mixin.py:115} INFO - [2023-05-10 16:36:56,030] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:36:56,042] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.365 seconds
+[2023-05-10 16:37:26,174] {processor.py:153} INFO - Started process (PID=393) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:37:26,176] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:37:26,177] {logging_mixin.py:115} INFO - [2023-05-10 16:37:26,177] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:37:26,485] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:37:26,506] {logging_mixin.py:115} INFO - [2023-05-10 16:37:26,506] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:37:26,522] {logging_mixin.py:115} INFO - [2023-05-10 16:37:26,522] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:37:26,533] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.363 seconds
+[2023-05-10 16:37:56,689] {processor.py:153} INFO - Started process (PID=409) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:37:56,690] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:37:56,691] {logging_mixin.py:115} INFO - [2023-05-10 16:37:56,691] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:37:57,014] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:37:57,036] {logging_mixin.py:115} INFO - [2023-05-10 16:37:57,036] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:37:57,052] {logging_mixin.py:115} INFO - [2023-05-10 16:37:57,052] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:37:57,066] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.381 seconds
+[2023-05-10 16:38:27,232] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:38:27,234] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:38:27,235] {logging_mixin.py:115} INFO - [2023-05-10 16:38:27,235] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:38:27,546] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:38:27,568] {logging_mixin.py:115} INFO - [2023-05-10 16:38:27,567] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:38:27,584] {logging_mixin.py:115} INFO - [2023-05-10 16:38:27,584] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:38:27,597] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.368 seconds
+[2023-05-10 16:38:57,743] {processor.py:153} INFO - Started process (PID=441) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:38:57,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:38:57,747] {logging_mixin.py:115} INFO - [2023-05-10 16:38:57,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:38:58,052] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:38:58,073] {logging_mixin.py:115} INFO - [2023-05-10 16:38:58,073] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:38:58,088] {logging_mixin.py:115} INFO - [2023-05-10 16:38:58,088] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:38:58,101] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.362 seconds
+[2023-05-10 16:39:28,247] {processor.py:153} INFO - Started process (PID=457) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:39:28,248] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:39:28,250] {logging_mixin.py:115} INFO - [2023-05-10 16:39:28,250] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:39:28,554] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:39:28,577] {logging_mixin.py:115} INFO - [2023-05-10 16:39:28,577] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:39:28,591] {logging_mixin.py:115} INFO - [2023-05-10 16:39:28,591] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:39:28,605] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.362 seconds
+[2023-05-10 16:39:58,781] {processor.py:153} INFO - Started process (PID=474) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:39:58,783] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:39:58,784] {logging_mixin.py:115} INFO - [2023-05-10 16:39:58,784] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:39:59,090] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:39:59,113] {logging_mixin.py:115} INFO - [2023-05-10 16:39:59,112] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:39:59,128] {logging_mixin.py:115} INFO - [2023-05-10 16:39:59,128] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:39:59,142] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.364 seconds
+[2023-05-10 16:40:29,303] {processor.py:153} INFO - Started process (PID=489) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:40:29,309] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:40:29,314] {logging_mixin.py:115} INFO - [2023-05-10 16:40:29,314] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:40:29,856] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:40:29,888] {logging_mixin.py:115} INFO - [2023-05-10 16:40:29,887] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:40:29,908] {logging_mixin.py:115} INFO - [2023-05-10 16:40:29,908] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:40:29,926] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.628 seconds
+[2023-05-10 16:41:00,058] {processor.py:153} INFO - Started process (PID=505) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:41:00,059] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:41:00,060] {logging_mixin.py:115} INFO - [2023-05-10 16:41:00,060] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:41:00,781] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:41:00,811] {logging_mixin.py:115} INFO - [2023-05-10 16:41:00,811] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:41:00,827] {logging_mixin.py:115} INFO - [2023-05-10 16:41:00,827] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:41:00,841] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.787 seconds
+[2023-05-10 16:41:31,005] {processor.py:153} INFO - Started process (PID=521) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:41:31,007] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:41:31,008] {logging_mixin.py:115} INFO - [2023-05-10 16:41:31,008] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:41:31,451] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:41:31,475] {logging_mixin.py:115} INFO - [2023-05-10 16:41:31,475] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:41:31,493] {logging_mixin.py:115} INFO - [2023-05-10 16:41:31,493] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:41:31,547] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.548 seconds
+[2023-05-10 16:42:01,674] {processor.py:153} INFO - Started process (PID=537) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:42:01,675] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:42:01,677] {logging_mixin.py:115} INFO - [2023-05-10 16:42:01,677] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:42:01,989] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:42:02,011] {logging_mixin.py:115} INFO - [2023-05-10 16:42:02,011] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:42:02,025] {logging_mixin.py:115} INFO - [2023-05-10 16:42:02,025] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:42:02,037] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.366 seconds
+[2023-05-10 16:42:32,201] {processor.py:153} INFO - Started process (PID=553) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:42:32,203] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:42:32,205] {logging_mixin.py:115} INFO - [2023-05-10 16:42:32,204] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:42:32,544] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:42:32,569] {logging_mixin.py:115} INFO - [2023-05-10 16:42:32,569] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:42:32,587] {logging_mixin.py:115} INFO - [2023-05-10 16:42:32,587] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:42:32,600] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.405 seconds
+[2023-05-10 16:43:02,734] {processor.py:153} INFO - Started process (PID=569) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:43:02,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:43:02,737] {logging_mixin.py:115} INFO - [2023-05-10 16:43:02,737] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:43:03,052] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:43:03,074] {logging_mixin.py:115} INFO - [2023-05-10 16:43:03,074] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:43:03,090] {logging_mixin.py:115} INFO - [2023-05-10 16:43:03,090] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:43:03,103] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.373 seconds
+[2023-05-10 16:43:33,231] {processor.py:153} INFO - Started process (PID=586) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:43:33,233] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:43:33,235] {logging_mixin.py:115} INFO - [2023-05-10 16:43:33,234] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:43:33,882] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:43:33,915] {logging_mixin.py:115} INFO - [2023-05-10 16:43:33,915] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:43:33,979] {logging_mixin.py:115} INFO - [2023-05-10 16:43:33,978] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:43:34,000] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.776 seconds
+[2023-05-10 16:44:04,138] {processor.py:153} INFO - Started process (PID=601) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:44:04,141] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:44:04,144] {logging_mixin.py:115} INFO - [2023-05-10 16:44:04,143] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:44:04,476] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:44:04,499] {logging_mixin.py:115} INFO - [2023-05-10 16:44:04,499] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:44:04,515] {logging_mixin.py:115} INFO - [2023-05-10 16:44:04,515] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:44:04,531] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.397 seconds
+[2023-05-10 16:44:34,666] {processor.py:153} INFO - Started process (PID=617) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:44:34,668] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:44:34,669] {logging_mixin.py:115} INFO - [2023-05-10 16:44:34,669] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:44:35,138] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:44:35,165] {logging_mixin.py:115} INFO - [2023-05-10 16:44:35,164] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:44:35,191] {logging_mixin.py:115} INFO - [2023-05-10 16:44:35,190] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:44:35,202] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.538 seconds
+[2023-05-10 16:45:05,302] {processor.py:153} INFO - Started process (PID=633) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:45:05,303] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:45:05,304] {logging_mixin.py:115} INFO - [2023-05-10 16:45:05,304] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:45:05,641] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:45:05,664] {logging_mixin.py:115} INFO - [2023-05-10 16:45:05,664] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:45:05,678] {logging_mixin.py:115} INFO - [2023-05-10 16:45:05,678] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:45:05,691] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.393 seconds
+[2023-05-10 16:45:35,813] {processor.py:153} INFO - Started process (PID=649) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:45:35,814] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:45:35,815] {logging_mixin.py:115} INFO - [2023-05-10 16:45:35,815] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:45:36,125] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:45:36,147] {logging_mixin.py:115} INFO - [2023-05-10 16:45:36,147] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:45:36,164] {logging_mixin.py:115} INFO - [2023-05-10 16:45:36,164] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:45:36,177] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.367 seconds
+[2023-05-10 16:46:06,303] {processor.py:153} INFO - Started process (PID=665) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:46:06,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:46:06,307] {logging_mixin.py:115} INFO - [2023-05-10 16:46:06,306] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:46:06,741] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:46:06,764] {logging_mixin.py:115} INFO - [2023-05-10 16:46:06,764] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:46:06,781] {logging_mixin.py:115} INFO - [2023-05-10 16:46:06,780] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:46:06,793] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.493 seconds
+[2023-05-10 16:46:36,951] {processor.py:153} INFO - Started process (PID=681) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:46:36,953] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:46:36,954] {logging_mixin.py:115} INFO - [2023-05-10 16:46:36,954] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:46:37,298] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:46:37,320] {logging_mixin.py:115} INFO - [2023-05-10 16:46:37,319] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:46:37,335] {logging_mixin.py:115} INFO - [2023-05-10 16:46:37,335] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:46:37,348] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.401 seconds
+[2023-05-10 16:53:18,160] {processor.py:153} INFO - Started process (PID=696) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:53:18,165] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:53:18,169] {logging_mixin.py:115} INFO - [2023-05-10 16:53:18,169] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:53:18,972] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:53:19,020] {logging_mixin.py:115} INFO - [2023-05-10 16:53:19,020] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:53:19,055] {logging_mixin.py:115} INFO - [2023-05-10 16:53:19,055] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:53:19,080] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.925 seconds
+[2023-05-10 16:53:49,264] {processor.py:153} INFO - Started process (PID=713) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:53:49,266] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:53:49,267] {logging_mixin.py:115} INFO - [2023-05-10 16:53:49,267] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:53:49,660] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:53:49,688] {logging_mixin.py:115} INFO - [2023-05-10 16:53:49,687] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:53:49,705] {logging_mixin.py:115} INFO - [2023-05-10 16:53:49,705] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:53:49,719] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.460 seconds
+[2023-05-10 16:54:19,848] {processor.py:153} INFO - Started process (PID=729) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:54:19,849] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:54:19,850] {logging_mixin.py:115} INFO - [2023-05-10 16:54:19,850] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:54:20,181] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:54:20,203] {logging_mixin.py:115} INFO - [2023-05-10 16:54:20,203] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:54:20,219] {logging_mixin.py:115} INFO - [2023-05-10 16:54:20,219] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:54:20,232] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.388 seconds
+[2023-05-10 16:54:50,385] {processor.py:153} INFO - Started process (PID=745) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:54:50,388] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:54:50,390] {logging_mixin.py:115} INFO - [2023-05-10 16:54:50,389] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:54:50,765] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:54:50,790] {logging_mixin.py:115} INFO - [2023-05-10 16:54:50,790] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:54:50,806] {logging_mixin.py:115} INFO - [2023-05-10 16:54:50,806] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:54:50,819] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.439 seconds
+[2023-05-10 16:55:20,965] {processor.py:153} INFO - Started process (PID=761) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:55:20,967] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:55:20,968] {logging_mixin.py:115} INFO - [2023-05-10 16:55:20,968] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:55:21,303] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:55:21,324] {logging_mixin.py:115} INFO - [2023-05-10 16:55:21,323] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:55:21,340] {logging_mixin.py:115} INFO - [2023-05-10 16:55:21,339] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:55:21,352] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.391 seconds
+[2023-05-10 16:55:51,472] {processor.py:153} INFO - Started process (PID=777) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:55:51,474] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:55:51,475] {logging_mixin.py:115} INFO - [2023-05-10 16:55:51,475] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:55:51,816] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:55:51,839] {logging_mixin.py:115} INFO - [2023-05-10 16:55:51,839] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:55:51,855] {logging_mixin.py:115} INFO - [2023-05-10 16:55:51,855] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:55:51,869] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.400 seconds
+[2023-05-10 16:56:22,029] {processor.py:153} INFO - Started process (PID=794) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:56:22,031] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:56:22,032] {logging_mixin.py:115} INFO - [2023-05-10 16:56:22,032] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:56:22,382] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:56:22,405] {logging_mixin.py:115} INFO - [2023-05-10 16:56:22,405] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:56:22,421] {logging_mixin.py:115} INFO - [2023-05-10 16:56:22,421] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:56:22,434] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.409 seconds
+[2023-05-10 16:56:52,584] {processor.py:153} INFO - Started process (PID=809) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:56:52,586] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:56:52,587] {logging_mixin.py:115} INFO - [2023-05-10 16:56:52,587] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:56:52,898] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:56:52,921] {logging_mixin.py:115} INFO - [2023-05-10 16:56:52,921] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:56:52,937] {logging_mixin.py:115} INFO - [2023-05-10 16:56:52,937] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:56:52,950] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.369 seconds
+[2023-05-10 16:57:23,146] {processor.py:153} INFO - Started process (PID=825) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:57:23,148] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:57:23,149] {logging_mixin.py:115} INFO - [2023-05-10 16:57:23,149] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:57:23,477] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:57:23,497] {logging_mixin.py:115} INFO - [2023-05-10 16:57:23,497] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:57:23,513] {logging_mixin.py:115} INFO - [2023-05-10 16:57:23,512] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:57:23,526] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.385 seconds
+[2023-05-10 16:57:53,677] {processor.py:153} INFO - Started process (PID=841) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:57:53,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:57:53,680] {logging_mixin.py:115} INFO - [2023-05-10 16:57:53,680] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:57:53,994] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:57:54,016] {logging_mixin.py:115} INFO - [2023-05-10 16:57:54,016] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:57:54,032] {logging_mixin.py:115} INFO - [2023-05-10 16:57:54,032] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:57:54,044] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.373 seconds
+[2023-05-10 16:58:24,202] {processor.py:153} INFO - Started process (PID=857) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:58:24,203] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:58:24,204] {logging_mixin.py:115} INFO - [2023-05-10 16:58:24,204] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:58:24,555] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:58:24,576] {logging_mixin.py:115} INFO - [2023-05-10 16:58:24,576] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:58:24,591] {logging_mixin.py:115} INFO - [2023-05-10 16:58:24,591] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:58:24,604] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.406 seconds
+[2023-05-10 16:58:54,744] {processor.py:153} INFO - Started process (PID=874) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:58:54,745] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:58:54,746] {logging_mixin.py:115} INFO - [2023-05-10 16:58:54,746] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:58:55,060] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:58:55,081] {logging_mixin.py:115} INFO - [2023-05-10 16:58:55,081] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:58:55,096] {logging_mixin.py:115} INFO - [2023-05-10 16:58:55,096] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:58:55,109] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.367 seconds
+[2023-05-10 16:59:25,238] {processor.py:153} INFO - Started process (PID=890) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:59:25,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:59:25,240] {logging_mixin.py:115} INFO - [2023-05-10 16:59:25,240] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:59:25,556] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:59:25,579] {logging_mixin.py:115} INFO - [2023-05-10 16:59:25,579] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:59:25,594] {logging_mixin.py:115} INFO - [2023-05-10 16:59:25,594] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:59:25,606] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.372 seconds
+[2023-05-10 16:59:55,767] {processor.py:153} INFO - Started process (PID=905) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:59:55,769] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 16:59:55,770] {logging_mixin.py:115} INFO - [2023-05-10 16:59:55,770] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:59:56,092] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 16:59:56,113] {logging_mixin.py:115} INFO - [2023-05-10 16:59:56,112] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 16:59:56,128] {logging_mixin.py:115} INFO - [2023-05-10 16:59:56,128] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 16:59:56,141] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.377 seconds
+[2023-05-10 17:00:26,285] {processor.py:153} INFO - Started process (PID=921) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:00:26,287] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:00:26,289] {logging_mixin.py:115} INFO - [2023-05-10 17:00:26,289] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:00:26,711] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:00:26,733] {logging_mixin.py:115} INFO - [2023-05-10 17:00:26,733] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:00:26,750] {logging_mixin.py:115} INFO - [2023-05-10 17:00:26,750] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:00:26,762] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.483 seconds
+[2023-05-10 17:00:56,922] {processor.py:153} INFO - Started process (PID=938) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:00:56,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:00:56,925] {logging_mixin.py:115} INFO - [2023-05-10 17:00:56,925] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:00:57,270] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:00:57,297] {logging_mixin.py:115} INFO - [2023-05-10 17:00:57,297] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:00:57,314] {logging_mixin.py:115} INFO - [2023-05-10 17:00:57,314] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:00:57,327] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.408 seconds
+[2023-05-10 17:01:27,487] {processor.py:153} INFO - Started process (PID=953) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:01:27,488] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:01:27,490] {logging_mixin.py:115} INFO - [2023-05-10 17:01:27,490] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:01:27,802] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:01:27,825] {logging_mixin.py:115} INFO - [2023-05-10 17:01:27,824] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:01:27,839] {logging_mixin.py:115} INFO - [2023-05-10 17:01:27,839] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:01:27,852] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.368 seconds
+[2023-05-10 17:01:58,025] {processor.py:153} INFO - Started process (PID=969) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:01:58,027] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:01:58,028] {logging_mixin.py:115} INFO - [2023-05-10 17:01:58,028] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:01:58,336] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:01:58,358] {logging_mixin.py:115} INFO - [2023-05-10 17:01:58,358] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:01:58,375] {logging_mixin.py:115} INFO - [2023-05-10 17:01:58,375] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:01:58,388] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.365 seconds
+[2023-05-10 17:02:28,541] {processor.py:153} INFO - Started process (PID=985) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:02:28,542] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:02:28,543] {logging_mixin.py:115} INFO - [2023-05-10 17:02:28,543] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:02:28,854] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:02:28,876] {logging_mixin.py:115} INFO - [2023-05-10 17:02:28,876] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:02:28,890] {logging_mixin.py:115} INFO - [2023-05-10 17:02:28,890] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:02:28,902] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.364 seconds
+[2023-05-10 17:02:59,091] {processor.py:153} INFO - Started process (PID=1001) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:02:59,093] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:02:59,094] {logging_mixin.py:115} INFO - [2023-05-10 17:02:59,094] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:02:59,411] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:02:59,433] {logging_mixin.py:115} INFO - [2023-05-10 17:02:59,432] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:02:59,449] {logging_mixin.py:115} INFO - [2023-05-10 17:02:59,449] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:02:59,461] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.374 seconds
+[2023-05-10 17:03:29,646] {processor.py:153} INFO - Started process (PID=1017) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:03:29,649] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:03:29,650] {logging_mixin.py:115} INFO - [2023-05-10 17:03:29,650] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:03:29,971] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:03:29,992] {logging_mixin.py:115} INFO - [2023-05-10 17:03:29,991] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:03:30,007] {logging_mixin.py:115} INFO - [2023-05-10 17:03:30,007] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:03:30,019] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.376 seconds
+[2023-05-10 17:04:00,195] {processor.py:153} INFO - Started process (PID=1033) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:04:00,197] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:04:00,198] {logging_mixin.py:115} INFO - [2023-05-10 17:04:00,198] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:04:00,521] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:04:00,542] {logging_mixin.py:115} INFO - [2023-05-10 17:04:00,542] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:04:00,557] {logging_mixin.py:115} INFO - [2023-05-10 17:04:00,557] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:04:00,570] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.378 seconds
+[2023-05-10 17:04:30,750] {processor.py:153} INFO - Started process (PID=1050) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:04:30,751] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:04:30,752] {logging_mixin.py:115} INFO - [2023-05-10 17:04:30,752] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:04:31,080] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:04:31,102] {logging_mixin.py:115} INFO - [2023-05-10 17:04:31,102] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:04:31,119] {logging_mixin.py:115} INFO - [2023-05-10 17:04:31,119] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:04:31,132] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.385 seconds
+[2023-05-10 17:05:01,274] {processor.py:153} INFO - Started process (PID=1065) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:05:01,275] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:05:01,276] {logging_mixin.py:115} INFO - [2023-05-10 17:05:01,276] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:05:01,587] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:05:01,608] {logging_mixin.py:115} INFO - [2023-05-10 17:05:01,608] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:05:01,623] {logging_mixin.py:115} INFO - [2023-05-10 17:05:01,623] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:05:01,635] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.365 seconds
+[2023-05-10 17:05:31,812] {processor.py:153} INFO - Started process (PID=1081) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:05:31,813] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:05:31,814] {logging_mixin.py:115} INFO - [2023-05-10 17:05:31,814] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:05:32,126] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:05:32,147] {logging_mixin.py:115} INFO - [2023-05-10 17:05:32,147] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:05:32,164] {logging_mixin.py:115} INFO - [2023-05-10 17:05:32,163] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:05:32,177] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.369 seconds
+[2023-05-10 17:06:02,299] {processor.py:153} INFO - Started process (PID=1096) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:06:02,300] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:06:02,302] {logging_mixin.py:115} INFO - [2023-05-10 17:06:02,302] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:06:02,632] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:06:02,654] {logging_mixin.py:115} INFO - [2023-05-10 17:06:02,654] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:06:02,670] {logging_mixin.py:115} INFO - [2023-05-10 17:06:02,670] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:06:02,682] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.388 seconds
+[2023-05-10 17:06:32,831] {processor.py:153} INFO - Started process (PID=1113) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:06:32,832] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:06:32,834] {logging_mixin.py:115} INFO - [2023-05-10 17:06:32,834] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:06:33,144] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:06:33,166] {logging_mixin.py:115} INFO - [2023-05-10 17:06:33,166] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:06:33,183] {logging_mixin.py:115} INFO - [2023-05-10 17:06:33,183] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:06:33,196] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.369 seconds
+[2023-05-10 17:07:03,334] {processor.py:153} INFO - Started process (PID=1129) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:07:03,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:07:03,336] {logging_mixin.py:115} INFO - [2023-05-10 17:07:03,336] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:07:03,670] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:07:03,691] {logging_mixin.py:115} INFO - [2023-05-10 17:07:03,690] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:07:03,706] {logging_mixin.py:115} INFO - [2023-05-10 17:07:03,706] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:07:03,718] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.387 seconds
+[2023-05-10 17:07:33,874] {processor.py:153} INFO - Started process (PID=1145) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:07:33,875] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:07:33,876] {logging_mixin.py:115} INFO - [2023-05-10 17:07:33,876] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:07:34,188] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:07:34,210] {logging_mixin.py:115} INFO - [2023-05-10 17:07:34,210] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:07:34,226] {logging_mixin.py:115} INFO - [2023-05-10 17:07:34,226] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:07:34,239] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.369 seconds
+[2023-05-10 17:08:04,389] {processor.py:153} INFO - Started process (PID=1161) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:08:04,390] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:08:04,392] {logging_mixin.py:115} INFO - [2023-05-10 17:08:04,392] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:08:04,702] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:08:04,723] {logging_mixin.py:115} INFO - [2023-05-10 17:08:04,723] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:08:04,743] {logging_mixin.py:115} INFO - [2023-05-10 17:08:04,743] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:08:04,759] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.373 seconds
+[2023-05-10 17:08:34,914] {processor.py:153} INFO - Started process (PID=1177) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:08:34,915] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:08:34,916] {logging_mixin.py:115} INFO - [2023-05-10 17:08:34,916] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:08:35,227] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:08:35,248] {logging_mixin.py:115} INFO - [2023-05-10 17:08:35,247] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:08:35,263] {logging_mixin.py:115} INFO - [2023-05-10 17:08:35,263] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:08:35,276] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.365 seconds
+[2023-05-10 17:09:05,471] {processor.py:153} INFO - Started process (PID=1193) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:09:05,473] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:09:05,475] {logging_mixin.py:115} INFO - [2023-05-10 17:09:05,475] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:09:05,816] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:09:05,837] {logging_mixin.py:115} INFO - [2023-05-10 17:09:05,837] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:09:05,852] {logging_mixin.py:115} INFO - [2023-05-10 17:09:05,852] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:09:05,865] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.398 seconds
+[2023-05-10 17:09:36,000] {processor.py:153} INFO - Started process (PID=1209) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:09:36,002] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:09:36,006] {logging_mixin.py:115} INFO - [2023-05-10 17:09:36,006] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:09:36,433] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:09:36,462] {logging_mixin.py:115} INFO - [2023-05-10 17:09:36,462] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:09:36,478] {logging_mixin.py:115} INFO - [2023-05-10 17:09:36,477] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:09:36,489] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.494 seconds
+[2023-05-10 17:10:06,666] {processor.py:153} INFO - Started process (PID=1225) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:10:06,668] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:10:06,669] {logging_mixin.py:115} INFO - [2023-05-10 17:10:06,669] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:10:07,012] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:10:07,036] {logging_mixin.py:115} INFO - [2023-05-10 17:10:07,036] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:10:07,052] {logging_mixin.py:115} INFO - [2023-05-10 17:10:07,052] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:10:07,064] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.402 seconds
+[2023-05-10 17:10:37,206] {processor.py:153} INFO - Started process (PID=1241) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:10:37,207] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:10:37,208] {logging_mixin.py:115} INFO - [2023-05-10 17:10:37,208] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:10:37,514] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:10:37,536] {logging_mixin.py:115} INFO - [2023-05-10 17:10:37,536] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:10:37,552] {logging_mixin.py:115} INFO - [2023-05-10 17:10:37,552] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:10:37,565] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.363 seconds
+[2023-05-10 17:11:07,716] {processor.py:153} INFO - Started process (PID=1257) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:11:07,718] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:11:07,719] {logging_mixin.py:115} INFO - [2023-05-10 17:11:07,719] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:11:08,024] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:11:08,044] {logging_mixin.py:115} INFO - [2023-05-10 17:11:08,044] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:11:08,060] {logging_mixin.py:115} INFO - [2023-05-10 17:11:08,060] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:11:08,073] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.360 seconds
+[2023-05-10 17:11:38,205] {processor.py:153} INFO - Started process (PID=1273) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:11:38,206] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:11:38,207] {logging_mixin.py:115} INFO - [2023-05-10 17:11:38,207] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:11:38,514] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:11:38,537] {logging_mixin.py:115} INFO - [2023-05-10 17:11:38,537] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:11:38,552] {logging_mixin.py:115} INFO - [2023-05-10 17:11:38,552] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:11:38,564] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.362 seconds
+[2023-05-10 17:12:08,684] {processor.py:153} INFO - Started process (PID=1289) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:12:08,686] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:12:08,687] {logging_mixin.py:115} INFO - [2023-05-10 17:12:08,687] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:12:09,019] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:12:09,043] {logging_mixin.py:115} INFO - [2023-05-10 17:12:09,043] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:12:09,058] {logging_mixin.py:115} INFO - [2023-05-10 17:12:09,058] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:12:09,071] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.390 seconds
+[2023-05-10 17:12:39,225] {processor.py:153} INFO - Started process (PID=1305) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:12:39,226] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:12:39,227] {logging_mixin.py:115} INFO - [2023-05-10 17:12:39,227] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:12:39,536] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:12:39,558] {logging_mixin.py:115} INFO - [2023-05-10 17:12:39,558] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:12:39,572] {logging_mixin.py:115} INFO - [2023-05-10 17:12:39,572] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:12:39,585] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.363 seconds
+[2023-05-10 17:13:09,706] {processor.py:153} INFO - Started process (PID=1321) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:13:09,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:13:09,708] {logging_mixin.py:115} INFO - [2023-05-10 17:13:09,708] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:13:10,031] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:13:10,055] {logging_mixin.py:115} INFO - [2023-05-10 17:13:10,054] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:13:10,071] {logging_mixin.py:115} INFO - [2023-05-10 17:13:10,071] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:13:10,083] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.381 seconds
+[2023-05-10 17:13:40,237] {processor.py:153} INFO - Started process (PID=1337) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:13:40,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:13:40,240] {logging_mixin.py:115} INFO - [2023-05-10 17:13:40,240] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:13:40,560] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:13:40,582] {logging_mixin.py:115} INFO - [2023-05-10 17:13:40,582] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:13:40,597] {logging_mixin.py:115} INFO - [2023-05-10 17:13:40,597] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:13:40,610] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.376 seconds
+[2023-05-10 17:14:10,743] {processor.py:153} INFO - Started process (PID=1353) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:14:10,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:14:10,745] {logging_mixin.py:115} INFO - [2023-05-10 17:14:10,745] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:14:11,054] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:14:11,077] {logging_mixin.py:115} INFO - [2023-05-10 17:14:11,077] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:14:11,093] {logging_mixin.py:115} INFO - [2023-05-10 17:14:11,093] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:14:11,106] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.366 seconds
+[2023-05-10 17:14:41,241] {processor.py:153} INFO - Started process (PID=1369) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:14:41,242] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:14:41,244] {logging_mixin.py:115} INFO - [2023-05-10 17:14:41,244] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:14:41,648] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:14:41,677] {logging_mixin.py:115} INFO - [2023-05-10 17:14:41,677] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:14:41,699] {logging_mixin.py:115} INFO - [2023-05-10 17:14:41,699] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:14:41,714] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.478 seconds
+[2023-05-10 17:15:11,856] {processor.py:153} INFO - Started process (PID=1385) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:15:11,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:15:11,860] {logging_mixin.py:115} INFO - [2023-05-10 17:15:11,859] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:15:12,216] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:15:12,238] {logging_mixin.py:115} INFO - [2023-05-10 17:15:12,237] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:15:12,253] {logging_mixin.py:115} INFO - [2023-05-10 17:15:12,252] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:15:12,265] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.413 seconds
+[2023-05-10 17:15:42,450] {processor.py:153} INFO - Started process (PID=1401) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:15:42,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:15:42,453] {logging_mixin.py:115} INFO - [2023-05-10 17:15:42,453] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:15:42,769] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:15:42,792] {logging_mixin.py:115} INFO - [2023-05-10 17:15:42,792] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:15:42,808] {logging_mixin.py:115} INFO - [2023-05-10 17:15:42,808] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:15:42,821] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.375 seconds
+[2023-05-10 17:16:12,995] {processor.py:153} INFO - Started process (PID=1419) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:16:12,997] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:16:12,998] {logging_mixin.py:115} INFO - [2023-05-10 17:16:12,998] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:16:13,317] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:16:13,339] {logging_mixin.py:115} INFO - [2023-05-10 17:16:13,339] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:16:13,356] {logging_mixin.py:115} INFO - [2023-05-10 17:16:13,356] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:16:13,369] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.378 seconds
+[2023-05-10 17:16:43,493] {processor.py:153} INFO - Started process (PID=1433) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:16:43,494] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:16:43,495] {logging_mixin.py:115} INFO - [2023-05-10 17:16:43,495] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:16:43,823] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:16:43,845] {logging_mixin.py:115} INFO - [2023-05-10 17:16:43,845] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:16:43,862] {logging_mixin.py:115} INFO - [2023-05-10 17:16:43,862] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:16:43,875] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.386 seconds
+[2023-05-10 17:17:13,999] {processor.py:153} INFO - Started process (PID=1449) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:17:14,000] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:17:14,001] {logging_mixin.py:115} INFO - [2023-05-10 17:17:14,001] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:17:14,328] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:17:14,348] {logging_mixin.py:115} INFO - [2023-05-10 17:17:14,348] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:17:14,365] {logging_mixin.py:115} INFO - [2023-05-10 17:17:14,364] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:17:14,377] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.382 seconds
+[2023-05-10 17:17:44,543] {processor.py:153} INFO - Started process (PID=1465) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:17:44,544] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:17:44,545] {logging_mixin.py:115} INFO - [2023-05-10 17:17:44,545] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:17:44,862] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:17:44,884] {logging_mixin.py:115} INFO - [2023-05-10 17:17:44,884] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:17:44,899] {logging_mixin.py:115} INFO - [2023-05-10 17:17:44,899] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:17:44,911] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.372 seconds
+[2023-05-10 17:18:15,084] {processor.py:153} INFO - Started process (PID=1481) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:18:15,085] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:18:15,087] {logging_mixin.py:115} INFO - [2023-05-10 17:18:15,087] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:18:15,439] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:18:15,462] {logging_mixin.py:115} INFO - [2023-05-10 17:18:15,462] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:18:15,479] {logging_mixin.py:115} INFO - [2023-05-10 17:18:15,479] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:18:15,491] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.410 seconds
+[2023-05-10 17:18:45,719] {processor.py:153} INFO - Started process (PID=1497) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:18:45,721] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:18:45,722] {logging_mixin.py:115} INFO - [2023-05-10 17:18:45,722] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:18:46,038] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:18:46,061] {logging_mixin.py:115} INFO - [2023-05-10 17:18:46,061] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:18:46,076] {logging_mixin.py:115} INFO - [2023-05-10 17:18:46,076] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:18:46,089] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.374 seconds
+[2023-05-10 17:19:16,233] {processor.py:153} INFO - Started process (PID=1513) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:19:16,235] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:19:16,236] {logging_mixin.py:115} INFO - [2023-05-10 17:19:16,236] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:19:16,544] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:19:16,566] {logging_mixin.py:115} INFO - [2023-05-10 17:19:16,566] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:19:16,582] {logging_mixin.py:115} INFO - [2023-05-10 17:19:16,582] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:19:16,595] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.365 seconds
+[2023-05-10 17:19:46,737] {processor.py:153} INFO - Started process (PID=1529) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:19:46,738] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:19:46,739] {logging_mixin.py:115} INFO - [2023-05-10 17:19:46,739] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:19:47,054] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:19:47,075] {logging_mixin.py:115} INFO - [2023-05-10 17:19:47,074] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:19:47,090] {logging_mixin.py:115} INFO - [2023-05-10 17:19:47,090] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:19:47,102] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.368 seconds
+[2023-05-10 17:20:17,228] {processor.py:153} INFO - Started process (PID=1545) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:20:17,231] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:20:17,232] {logging_mixin.py:115} INFO - [2023-05-10 17:20:17,232] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:20:17,599] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:20:17,624] {logging_mixin.py:115} INFO - [2023-05-10 17:20:17,623] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:20:17,640] {logging_mixin.py:115} INFO - [2023-05-10 17:20:17,640] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:20:17,653] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.429 seconds
+[2023-05-10 17:20:47,790] {processor.py:153} INFO - Started process (PID=1561) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:20:47,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:20:47,794] {logging_mixin.py:115} INFO - [2023-05-10 17:20:47,794] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:20:48,127] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:20:48,171] {logging_mixin.py:115} INFO - [2023-05-10 17:20:48,171] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:20:48,194] {logging_mixin.py:115} INFO - [2023-05-10 17:20:48,193] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:20:48,208] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.421 seconds
+[2023-05-10 17:21:18,357] {processor.py:153} INFO - Started process (PID=1577) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:21:18,359] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:21:18,360] {logging_mixin.py:115} INFO - [2023-05-10 17:21:18,360] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:21:18,716] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:21:18,747] {logging_mixin.py:115} INFO - [2023-05-10 17:21:18,747] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:21:18,762] {logging_mixin.py:115} INFO - [2023-05-10 17:21:18,762] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:21:18,775] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.422 seconds
+[2023-05-10 17:21:48,985] {processor.py:153} INFO - Started process (PID=1593) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:21:48,986] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:21:48,988] {logging_mixin.py:115} INFO - [2023-05-10 17:21:48,988] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:21:49,321] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:21:49,342] {logging_mixin.py:115} INFO - [2023-05-10 17:21:49,342] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:21:49,358] {logging_mixin.py:115} INFO - [2023-05-10 17:21:49,358] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:21:49,370] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.389 seconds
+[2023-05-10 17:22:19,520] {processor.py:153} INFO - Started process (PID=1609) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:22:19,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:22:19,524] {logging_mixin.py:115} INFO - [2023-05-10 17:22:19,524] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:22:19,995] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:22:20,021] {logging_mixin.py:115} INFO - [2023-05-10 17:22:20,021] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:22:20,038] {logging_mixin.py:115} INFO - [2023-05-10 17:22:20,038] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:22:20,052] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.536 seconds
+[2023-05-10 17:22:50,183] {processor.py:153} INFO - Started process (PID=1627) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:22:50,184] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:22:50,185] {logging_mixin.py:115} INFO - [2023-05-10 17:22:50,185] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:22:50,503] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:22:50,527] {logging_mixin.py:115} INFO - [2023-05-10 17:22:50,527] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:22:50,543] {logging_mixin.py:115} INFO - [2023-05-10 17:22:50,543] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:22:50,555] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.376 seconds
+[2023-05-10 17:23:20,746] {processor.py:153} INFO - Started process (PID=1641) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:23:20,748] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:23:20,749] {logging_mixin.py:115} INFO - [2023-05-10 17:23:20,749] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:23:21,079] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:23:21,103] {logging_mixin.py:115} INFO - [2023-05-10 17:23:21,103] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:23:21,120] {logging_mixin.py:115} INFO - [2023-05-10 17:23:21,120] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:23:21,132] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.390 seconds
+[2023-05-10 17:23:51,253] {processor.py:153} INFO - Started process (PID=1658) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:23:51,254] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:23:51,255] {logging_mixin.py:115} INFO - [2023-05-10 17:23:51,255] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:23:51,578] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:23:51,600] {logging_mixin.py:115} INFO - [2023-05-10 17:23:51,600] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:23:51,617] {logging_mixin.py:115} INFO - [2023-05-10 17:23:51,617] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:23:51,630] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.381 seconds
+[2023-05-10 17:24:21,800] {processor.py:153} INFO - Started process (PID=1674) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:24:21,802] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:24:21,804] {logging_mixin.py:115} INFO - [2023-05-10 17:24:21,804] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:24:22,122] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:24:22,145] {logging_mixin.py:115} INFO - [2023-05-10 17:24:22,144] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:24:22,162] {logging_mixin.py:115} INFO - [2023-05-10 17:24:22,162] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:24:22,175] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.379 seconds
+[2023-05-10 17:24:52,303] {processor.py:153} INFO - Started process (PID=1689) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:24:52,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:24:52,306] {logging_mixin.py:115} INFO - [2023-05-10 17:24:52,306] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:24:52,707] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:24:52,731] {logging_mixin.py:115} INFO - [2023-05-10 17:24:52,731] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:24:52,747] {logging_mixin.py:115} INFO - [2023-05-10 17:24:52,747] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:24:52,760] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.464 seconds
+[2023-05-10 17:25:22,842] {processor.py:153} INFO - Started process (PID=1705) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:25:22,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:25:22,844] {logging_mixin.py:115} INFO - [2023-05-10 17:25:22,844] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:25:23,174] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:25:23,196] {logging_mixin.py:115} INFO - [2023-05-10 17:25:23,196] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:25:23,211] {logging_mixin.py:115} INFO - [2023-05-10 17:25:23,211] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:25:23,225] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.385 seconds
+[2023-05-10 17:25:53,352] {processor.py:153} INFO - Started process (PID=1721) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:25:53,354] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:25:53,355] {logging_mixin.py:115} INFO - [2023-05-10 17:25:53,355] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:25:53,715] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:25:53,740] {logging_mixin.py:115} INFO - [2023-05-10 17:25:53,740] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:25:53,756] {logging_mixin.py:115} INFO - [2023-05-10 17:25:53,756] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:25:53,769] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.421 seconds
+[2023-05-10 17:26:23,931] {processor.py:153} INFO - Started process (PID=1737) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:26:23,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:26:23,933] {logging_mixin.py:115} INFO - [2023-05-10 17:26:23,933] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:26:24,264] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:26:24,287] {logging_mixin.py:115} INFO - [2023-05-10 17:26:24,287] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:26:24,302] {logging_mixin.py:115} INFO - [2023-05-10 17:26:24,302] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:26:24,315] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.388 seconds
+[2023-05-10 17:26:54,437] {processor.py:153} INFO - Started process (PID=1754) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:26:54,438] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:26:54,439] {logging_mixin.py:115} INFO - [2023-05-10 17:26:54,439] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:26:54,750] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:26:54,773] {logging_mixin.py:115} INFO - [2023-05-10 17:26:54,773] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:26:54,792] {logging_mixin.py:115} INFO - [2023-05-10 17:26:54,792] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:26:54,806] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.372 seconds
+[2023-05-10 17:27:24,921] {processor.py:153} INFO - Started process (PID=1769) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:27:24,922] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:27:24,924] {logging_mixin.py:115} INFO - [2023-05-10 17:27:24,923] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:27:25,283] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:27:25,303] {logging_mixin.py:115} INFO - [2023-05-10 17:27:25,303] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:27:25,319] {logging_mixin.py:115} INFO - [2023-05-10 17:27:25,319] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:27:25,331] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.414 seconds
+[2023-05-10 17:27:55,517] {processor.py:153} INFO - Started process (PID=1786) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:27:55,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:27:55,521] {logging_mixin.py:115} INFO - [2023-05-10 17:27:55,521] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:27:55,860] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:27:55,886] {logging_mixin.py:115} INFO - [2023-05-10 17:27:55,886] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:27:55,903] {logging_mixin.py:115} INFO - [2023-05-10 17:27:55,903] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:27:55,916] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.403 seconds
+[2023-05-10 17:28:26,118] {processor.py:153} INFO - Started process (PID=1801) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:28:26,120] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:28:26,121] {logging_mixin.py:115} INFO - [2023-05-10 17:28:26,121] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:28:26,459] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:28:26,484] {logging_mixin.py:115} INFO - [2023-05-10 17:28:26,484] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:28:26,500] {logging_mixin.py:115} INFO - [2023-05-10 17:28:26,500] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:28:26,540] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.427 seconds
+[2023-05-10 17:28:56,705] {processor.py:153} INFO - Started process (PID=1817) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:28:56,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:28:56,708] {logging_mixin.py:115} INFO - [2023-05-10 17:28:56,708] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:28:57,045] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:28:57,069] {logging_mixin.py:115} INFO - [2023-05-10 17:28:57,069] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:28:57,085] {logging_mixin.py:115} INFO - [2023-05-10 17:28:57,085] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:28:57,097] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.396 seconds
+[2023-05-10 17:29:27,230] {processor.py:153} INFO - Started process (PID=1833) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:29:27,232] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:29:27,234] {logging_mixin.py:115} INFO - [2023-05-10 17:29:27,233] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:29:27,556] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:29:27,580] {logging_mixin.py:115} INFO - [2023-05-10 17:29:27,580] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:29:27,597] {logging_mixin.py:115} INFO - [2023-05-10 17:29:27,597] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:29:27,611] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.384 seconds
+[2023-05-10 17:29:57,752] {processor.py:153} INFO - Started process (PID=1849) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:29:57,753] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:29:57,753] {logging_mixin.py:115} INFO - [2023-05-10 17:29:57,753] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:29:58,115] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:29:58,140] {logging_mixin.py:115} INFO - [2023-05-10 17:29:58,140] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:29:58,156] {logging_mixin.py:115} INFO - [2023-05-10 17:29:58,155] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:29:58,168] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.420 seconds
+[2023-05-10 17:30:28,279] {processor.py:153} INFO - Started process (PID=1866) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:30:28,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:30:28,281] {logging_mixin.py:115} INFO - [2023-05-10 17:30:28,281] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:30:28,594] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:30:28,615] {logging_mixin.py:115} INFO - [2023-05-10 17:30:28,615] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:30:28,630] {logging_mixin.py:115} INFO - [2023-05-10 17:30:28,630] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:30:28,642] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.366 seconds
+[2023-05-10 17:30:58,814] {processor.py:153} INFO - Started process (PID=1881) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:30:58,815] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:30:58,817] {logging_mixin.py:115} INFO - [2023-05-10 17:30:58,817] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:30:59,152] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:30:59,176] {logging_mixin.py:115} INFO - [2023-05-10 17:30:59,176] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:30:59,192] {logging_mixin.py:115} INFO - [2023-05-10 17:30:59,192] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:30:59,204] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.397 seconds
+[2023-05-10 17:31:29,340] {processor.py:153} INFO - Started process (PID=1897) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:31:29,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:31:29,343] {logging_mixin.py:115} INFO - [2023-05-10 17:31:29,343] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:31:29,657] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:31:29,681] {logging_mixin.py:115} INFO - [2023-05-10 17:31:29,681] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:31:29,698] {logging_mixin.py:115} INFO - [2023-05-10 17:31:29,698] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:31:29,711] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.375 seconds
+[2023-05-10 17:31:59,818] {processor.py:153} INFO - Started process (PID=1914) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:31:59,820] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:31:59,821] {logging_mixin.py:115} INFO - [2023-05-10 17:31:59,821] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:32:00,129] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:32:00,153] {logging_mixin.py:115} INFO - [2023-05-10 17:32:00,153] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:32:00,168] {logging_mixin.py:115} INFO - [2023-05-10 17:32:00,168] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:32:00,181] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.365 seconds
+[2023-05-10 17:32:30,274] {processor.py:153} INFO - Started process (PID=1929) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:32:30,276] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:32:30,277] {logging_mixin.py:115} INFO - [2023-05-10 17:32:30,276] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:32:30,584] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:32:30,606] {logging_mixin.py:115} INFO - [2023-05-10 17:32:30,606] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:32:30,623] {logging_mixin.py:115} INFO - [2023-05-10 17:32:30,623] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:32:30,636] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.364 seconds
+[2023-05-10 17:33:00,745] {processor.py:153} INFO - Started process (PID=1945) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:33:00,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:33:00,747] {logging_mixin.py:115} INFO - [2023-05-10 17:33:00,747] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:33:01,053] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:33:01,075] {logging_mixin.py:115} INFO - [2023-05-10 17:33:01,074] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:33:01,089] {logging_mixin.py:115} INFO - [2023-05-10 17:33:01,089] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:33:01,102] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.360 seconds
+[2023-05-10 17:33:31,266] {processor.py:153} INFO - Started process (PID=1960) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:33:31,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:33:31,269] {logging_mixin.py:115} INFO - [2023-05-10 17:33:31,269] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:33:31,849] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:33:31,876] {logging_mixin.py:115} INFO - [2023-05-10 17:33:31,876] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:33:31,892] {logging_mixin.py:115} INFO - [2023-05-10 17:33:31,892] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:33:31,901] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.642 seconds
+[2023-05-10 17:34:02,049] {processor.py:153} INFO - Started process (PID=1977) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:34:02,051] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:34:02,053] {logging_mixin.py:115} INFO - [2023-05-10 17:34:02,052] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:34:02,405] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:34:02,430] {logging_mixin.py:115} INFO - [2023-05-10 17:34:02,430] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:34:02,445] {logging_mixin.py:115} INFO - [2023-05-10 17:34:02,445] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:34:02,458] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.414 seconds
+[2023-05-10 17:34:32,607] {processor.py:153} INFO - Started process (PID=1993) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:34:32,608] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:34:32,610] {logging_mixin.py:115} INFO - [2023-05-10 17:34:32,610] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:34:32,918] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:34:32,942] {logging_mixin.py:115} INFO - [2023-05-10 17:34:32,942] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:34:32,957] {logging_mixin.py:115} INFO - [2023-05-10 17:34:32,957] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:34:32,970] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.367 seconds
+[2023-05-10 17:35:03,138] {processor.py:153} INFO - Started process (PID=2009) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:35:03,140] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:35:03,141] {logging_mixin.py:115} INFO - [2023-05-10 17:35:03,141] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:35:03,547] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:35:03,570] {logging_mixin.py:115} INFO - [2023-05-10 17:35:03,570] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:35:03,585] {logging_mixin.py:115} INFO - [2023-05-10 17:35:03,585] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:35:03,598] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.465 seconds
+[2023-05-10 17:35:33,734] {processor.py:153} INFO - Started process (PID=2025) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:35:33,736] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:35:33,737] {logging_mixin.py:115} INFO - [2023-05-10 17:35:33,737] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:35:34,206] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:35:34,236] {logging_mixin.py:115} INFO - [2023-05-10 17:35:34,236] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:35:34,253] {logging_mixin.py:115} INFO - [2023-05-10 17:35:34,253] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:35:34,262] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.533 seconds
+[2023-05-10 17:36:04,404] {processor.py:153} INFO - Started process (PID=2041) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:36:04,405] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:36:04,406] {logging_mixin.py:115} INFO - [2023-05-10 17:36:04,406] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:36:04,727] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:36:04,759] {logging_mixin.py:115} INFO - [2023-05-10 17:36:04,759] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:36:04,776] {logging_mixin.py:115} INFO - [2023-05-10 17:36:04,776] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:36:04,792] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.392 seconds
+[2023-05-10 17:36:34,937] {processor.py:153} INFO - Started process (PID=2057) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:36:34,940] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:36:34,941] {logging_mixin.py:115} INFO - [2023-05-10 17:36:34,940] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:36:35,301] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:36:35,325] {logging_mixin.py:115} INFO - [2023-05-10 17:36:35,325] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:36:35,340] {logging_mixin.py:115} INFO - [2023-05-10 17:36:35,340] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:36:35,352] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.419 seconds
+[2023-05-10 17:37:05,491] {processor.py:153} INFO - Started process (PID=2073) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:37:05,492] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:37:05,494] {logging_mixin.py:115} INFO - [2023-05-10 17:37:05,493] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:37:06,042] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:37:06,071] {logging_mixin.py:115} INFO - [2023-05-10 17:37:06,071] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:37:06,087] {logging_mixin.py:115} INFO - [2023-05-10 17:37:06,087] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:37:06,100] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.613 seconds
+[2023-05-10 17:37:36,237] {processor.py:153} INFO - Started process (PID=2089) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:37:36,239] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:37:36,240] {logging_mixin.py:115} INFO - [2023-05-10 17:37:36,240] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:37:36,600] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:37:36,626] {logging_mixin.py:115} INFO - [2023-05-10 17:37:36,626] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:37:36,641] {logging_mixin.py:115} INFO - [2023-05-10 17:37:36,641] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:37:36,654] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.421 seconds
+[2023-05-10 17:38:06,796] {processor.py:153} INFO - Started process (PID=2105) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:38:06,797] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:38:06,799] {logging_mixin.py:115} INFO - [2023-05-10 17:38:06,799] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:38:07,131] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:38:07,157] {logging_mixin.py:115} INFO - [2023-05-10 17:38:07,157] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:38:07,172] {logging_mixin.py:115} INFO - [2023-05-10 17:38:07,172] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:38:07,185] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.392 seconds
+[2023-05-10 17:38:37,311] {processor.py:153} INFO - Started process (PID=2121) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:38:37,313] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:38:37,314] {logging_mixin.py:115} INFO - [2023-05-10 17:38:37,314] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:38:37,639] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:38:37,663] {logging_mixin.py:115} INFO - [2023-05-10 17:38:37,663] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:38:37,680] {logging_mixin.py:115} INFO - [2023-05-10 17:38:37,680] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:38:37,697] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.389 seconds
+[2023-05-10 17:39:07,815] {processor.py:153} INFO - Started process (PID=2137) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:39:07,817] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:39:07,818] {logging_mixin.py:115} INFO - [2023-05-10 17:39:07,818] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:39:08,190] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:39:08,215] {logging_mixin.py:115} INFO - [2023-05-10 17:39:08,215] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:39:08,230] {logging_mixin.py:115} INFO - [2023-05-10 17:39:08,230] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:39:08,242] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.431 seconds
+[2023-05-10 17:39:38,380] {processor.py:153} INFO - Started process (PID=2153) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:39:38,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:39:38,384] {logging_mixin.py:115} INFO - [2023-05-10 17:39:38,384] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:39:38,821] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:39:38,845] {logging_mixin.py:115} INFO - [2023-05-10 17:39:38,845] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:39:38,861] {logging_mixin.py:115} INFO - [2023-05-10 17:39:38,861] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:39:38,874] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.497 seconds
+[2023-05-10 17:40:09,069] {processor.py:153} INFO - Started process (PID=2170) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:40:09,071] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:40:09,072] {logging_mixin.py:115} INFO - [2023-05-10 17:40:09,072] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:40:09,387] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:40:09,408] {logging_mixin.py:115} INFO - [2023-05-10 17:40:09,408] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:40:09,423] {logging_mixin.py:115} INFO - [2023-05-10 17:40:09,423] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:40:09,436] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.371 seconds
+[2023-05-10 17:40:39,615] {processor.py:153} INFO - Started process (PID=2185) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:40:39,618] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:40:39,619] {logging_mixin.py:115} INFO - [2023-05-10 17:40:39,619] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:40:39,967] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:40:39,990] {logging_mixin.py:115} INFO - [2023-05-10 17:40:39,989] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:40:40,004] {logging_mixin.py:115} INFO - [2023-05-10 17:40:40,004] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:40:40,016] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.406 seconds
+[2023-05-10 17:41:10,157] {processor.py:153} INFO - Started process (PID=2201) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:41:10,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:41:10,160] {logging_mixin.py:115} INFO - [2023-05-10 17:41:10,160] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:41:10,575] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:41:10,601] {logging_mixin.py:115} INFO - [2023-05-10 17:41:10,601] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:41:10,617] {logging_mixin.py:115} INFO - [2023-05-10 17:41:10,617] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:41:10,630] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.476 seconds
+[2023-05-10 17:41:40,748] {processor.py:153} INFO - Started process (PID=2218) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:41:40,750] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:41:40,752] {logging_mixin.py:115} INFO - [2023-05-10 17:41:40,752] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:41:41,176] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:41:41,203] {logging_mixin.py:115} INFO - [2023-05-10 17:41:41,203] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:41:41,219] {logging_mixin.py:115} INFO - [2023-05-10 17:41:41,219] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:41:41,231] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.488 seconds
+[2023-05-10 17:42:11,355] {processor.py:153} INFO - Started process (PID=2232) to work on /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:42:11,357] {processor.py:641} INFO - Processing file /opt/airflow/dags/get_monthly_report_from_gmail.py for tasks to queue
+[2023-05-10 17:42:11,358] {logging_mixin.py:115} INFO - [2023-05-10 17:42:11,358] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:42:11,715] {processor.py:651} INFO - DAG(s) dict_keys(['get_attachment_from_dst_gmail']) retrieved from /opt/airflow/dags/get_monthly_report_from_gmail.py
+[2023-05-10 17:42:11,739] {logging_mixin.py:115} INFO - [2023-05-10 17:42:11,739] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-10 17:42:11,754] {logging_mixin.py:115} INFO - [2023-05-10 17:42:11,754] {dag.py:2968} INFO - Setting next_dagrun for get_attachment_from_dst_gmail to 2023-05-09T00:00:00+00:00, run_after=2023-05-31T14:00:00+00:00
+[2023-05-10 17:42:11,766] {processor.py:161} INFO - Processing /opt/airflow/dags/get_monthly_report_from_gmail.py took 0.416 seconds

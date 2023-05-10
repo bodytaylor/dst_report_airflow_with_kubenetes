@@ -1,0 +1,28 @@
+[2023-05-08 08:15:00,600] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.check_downloaded_files manual__2023-05-08T08:14:46.241590+00:00 [queued]>
+[2023-05-08 08:15:00,635] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.check_downloaded_files manual__2023-05-08T08:14:46.241590+00:00 [queued]>
+[2023-05-08 08:15:00,658] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-08 08:15:00,667] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-08 08:15:00,675] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-08 08:15:00,710] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): check_downloaded_files> on 2023-05-08 08:14:46.241590+00:00
+[2023-05-08 08:15:00,721] {standard_task_runner.py:52} INFO - Started process 22 to run task
+[2023-05-08 08:15:00,727] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dst_report_dags', 'check_downloaded_files', 'manual__2023-05-08T08:14:46.241590+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/dst_report_dags.py', '--cfg-path', '/tmp/tmp9mol9vjr', '--error-file', '/tmp/tmproc0bfad']
+[2023-05-08 08:15:00,752] {standard_task_runner.py:80} INFO - Job 44: Subtask check_downloaded_files
+[2023-05-08 08:15:00,854] {task_command.py:371} INFO - Running <TaskInstance: dst_report_dags.check_downloaded_files manual__2023-05-08T08:14:46.241590+00:00 [running]> on host dstreportdagscheckdownloadedfi-cf3dcfa900404dbdad5aed101f6f888d
+[2023-05-08 08:15:01,915] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-08 08:15:01,932] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dst_report_dags
+AIRFLOW_CTX_TASK_ID=check_downloaded_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-08T08:14:46.241590+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-08T08:14:46.241590+00:00
+[2023-05-08 08:15:01,951] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-08 08:15:01,955] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'find . -name "*.csv"']
+[2023-05-08 08:15:01,978] {subprocess.py:85} INFO - Output:
+[2023-05-08 08:15:01,990] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-05-08 08:15:02,042] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=dst_report_dags, task_id=check_downloaded_files, execution_date=20230508T081446, start_date=20230508T081500, end_date=20230508T081502
+[2023-05-08 08:15:02,109] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-08 08:15:02,162] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

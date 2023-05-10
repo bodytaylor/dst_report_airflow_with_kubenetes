@@ -1,0 +1,35 @@
+[2023-05-08 10:09:50,858] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.generate_report manual__2023-05-08T10:09:36.165335+00:00 [queued]>
+[2023-05-08 10:09:50,869] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.generate_report manual__2023-05-08T10:09:36.165335+00:00 [queued]>
+[2023-05-08 10:09:50,871] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-08 10:09:50,872] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-08 10:09:50,876] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-08 10:09:50,891] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): generate_report> on 2023-05-08 10:09:36.165335+00:00
+[2023-05-08 10:09:50,895] {standard_task_runner.py:52} INFO - Started process 22 to run task
+[2023-05-08 10:09:50,900] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dst_report_dags', 'generate_report', 'manual__2023-05-08T10:09:36.165335+00:00', '--job-id', '67', '--raw', '--subdir', 'DAGS_FOLDER/dst_report_dags.py', '--cfg-path', '/tmp/tmp4hzc7ivu', '--error-file', '/tmp/tmpuexsuccn']
+[2023-05-08 10:09:50,902] {standard_task_runner.py:80} INFO - Job 67: Subtask generate_report
+[2023-05-08 10:09:50,979] {task_command.py:371} INFO - Running <TaskInstance: dst_report_dags.generate_report manual__2023-05-08T10:09:36.165335+00:00 [running]> on host dstreportdagsgeneratereport-1e1f50e1f33b45cfb2e83d277dac6bba
+[2023-05-08 10:09:52,088] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-08 10:09:52,102] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dst_report_dags
+AIRFLOW_CTX_TASK_ID=generate_report
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-08T10:09:36.165335+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-08T10:09:36.165335+00:00
+[2023-05-08 10:09:52,122] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dst_report_dags.py", line 83, in join_csv
+    with pd.ExcelWriter(f'{year}_q{quarter}_dst_report.xlsx') as writer:
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/io/excel/_openpyxl.py", line 49, in __init__
+    from openpyxl.workbook import Workbook
+ModuleNotFoundError: No module named 'openpyxl'
+[2023-05-08 10:09:52,131] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=dst_report_dags, task_id=generate_report, execution_date=20230508T100936, start_date=20230508T100950, end_date=20230508T100952
+[2023-05-08 10:09:52,151] {standard_task_runner.py:92} ERROR - Failed to execute job 67 for task generate_report (No module named 'openpyxl'; 22)
+[2023-05-08 10:09:52,203] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-05-08 10:09:52,228] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

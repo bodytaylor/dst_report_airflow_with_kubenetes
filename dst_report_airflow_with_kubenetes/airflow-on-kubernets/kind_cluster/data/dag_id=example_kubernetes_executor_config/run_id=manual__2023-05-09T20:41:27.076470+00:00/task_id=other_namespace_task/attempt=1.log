@@ -1,0 +1,26 @@
+[2023-05-09 20:41:45,723] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: example_kubernetes_executor_config.other_namespace_task manual__2023-05-09T20:41:27.076470+00:00 [queued]>
+[2023-05-09 20:41:45,761] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: example_kubernetes_executor_config.other_namespace_task manual__2023-05-09T20:41:27.076470+00:00 [queued]>
+[2023-05-09 20:41:45,762] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 20:41:45,764] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-09 20:41:45,766] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 20:41:45,807] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): other_namespace_task> on 2023-05-09 20:41:27.076470+00:00
+[2023-05-09 20:41:45,819] {standard_task_runner.py:52} INFO - Started process 17 to run task
+[2023-05-09 20:41:45,839] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'example_kubernetes_executor_config', 'other_namespace_task', 'manual__2023-05-09T20:41:27.076470+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpquscjmtt', '--error-file', '/tmp/tmpu3o0n6ns']
+[2023-05-09 20:41:45,844] {standard_task_runner.py:80} INFO - Job 4: Subtask other_namespace_task
+[2023-05-09 20:41:46,287] {task_command.py:371} INFO - Running <TaskInstance: example_kubernetes_executor_config.other_namespace_task manual__2023-05-09T20:41:27.076470+00:00 [running]> on host examplekubernetesexecutorconfi-fddef2ea906e46bc8243bec5358a7e05
+[2023-05-09 20:41:46,697] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/kubernetes/pod_generator.py:171 DeprecationWarning: Using a dictionary for the executor_config is deprecated and will soon be removed.please use a `kubernetes.client.models.V1Pod` class with a "pod_override" key instead.
+[2023-05-09 20:41:46,772] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-09 20:41:46,814] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_kubernetes_executor_config
+AIRFLOW_CTX_TASK_ID=other_namespace_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-09T20:41:27.076470+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-09T20:41:27.076470+00:00
+[2023-05-09 20:41:46,817] {logging_mixin.py:115} INFO - annotated!
+[2023-05-09 20:41:46,819] {python.py:173} INFO - Done. Returned value was: None
+[2023-05-09 20:41:46,846] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=example_kubernetes_executor_config, task_id=other_namespace_task, execution_date=20230509T204127, start_date=20230509T204145, end_date=20230509T204146
+[2023-05-09 20:41:46,944] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-09 20:41:47,050] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,245 @@
+[2023-05-07 00:04:32,770] {processor.py:153} INFO - Started process (PID=2548) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 00:04:32,772] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 00:04:32,773] {logging_mixin.py:115} INFO - [2023-05-07 00:04:32,773] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 00:04:32,792] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 00:04:32,829] {logging_mixin.py:115} INFO - [2023-05-07 00:04:32,829] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 00:04:32,869] {logging_mixin.py:115} INFO - [2023-05-07 00:04:32,869] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 00:04:32,899] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.133 seconds
+[2023-05-07 00:53:13,777] {processor.py:153} INFO - Started process (PID=2562) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 00:53:13,779] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 00:53:13,780] {logging_mixin.py:115} INFO - [2023-05-07 00:53:13,780] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 00:53:13,817] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 00:53:13,921] {logging_mixin.py:115} INFO - [2023-05-07 00:53:13,921] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 00:53:13,980] {logging_mixin.py:115} INFO - [2023-05-07 00:53:13,980] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 00:53:14,017] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.246 seconds
+[2023-05-07 01:28:19,036] {processor.py:153} INFO - Started process (PID=2576) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 01:28:19,044] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 01:28:19,048] {logging_mixin.py:115} INFO - [2023-05-07 01:28:19,047] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 01:28:19,113] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 01:28:19,209] {logging_mixin.py:115} INFO - [2023-05-07 01:28:19,209] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 01:28:19,272] {logging_mixin.py:115} INFO - [2023-05-07 01:28:19,272] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 01:28:19,305] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.289 seconds
+[2023-05-07 02:01:26,213] {processor.py:153} INFO - Started process (PID=2589) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 02:01:26,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 02:01:26,216] {logging_mixin.py:115} INFO - [2023-05-07 02:01:26,216] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 02:01:26,240] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 02:01:26,280] {logging_mixin.py:115} INFO - [2023-05-07 02:01:26,280] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 02:01:26,303] {logging_mixin.py:115} INFO - [2023-05-07 02:01:26,303] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 02:01:26,321] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.112 seconds
+[2023-05-07 02:50:30,943] {processor.py:153} INFO - Started process (PID=2604) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 02:50:30,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 02:50:30,949] {logging_mixin.py:115} INFO - [2023-05-07 02:50:30,949] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 02:50:30,974] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 02:50:31,011] {logging_mixin.py:115} INFO - [2023-05-07 02:50:31,011] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 02:50:31,032] {logging_mixin.py:115} INFO - [2023-05-07 02:50:31,032] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 02:50:31,049] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.109 seconds
+[2023-05-07 03:40:30,375] {processor.py:153} INFO - Started process (PID=2617) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 03:40:30,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 03:40:30,389] {logging_mixin.py:115} INFO - [2023-05-07 03:40:30,388] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 03:40:30,459] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 03:40:30,563] {logging_mixin.py:115} INFO - [2023-05-07 03:40:30,563] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 03:40:30,632] {logging_mixin.py:115} INFO - [2023-05-07 03:40:30,632] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 03:40:30,672] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.318 seconds
+[2023-05-07 04:14:17,752] {processor.py:153} INFO - Started process (PID=2632) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 04:14:17,761] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 04:14:17,763] {logging_mixin.py:115} INFO - [2023-05-07 04:14:17,763] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 04:14:17,784] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 04:14:17,823] {logging_mixin.py:115} INFO - [2023-05-07 04:14:17,823] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 04:14:17,846] {logging_mixin.py:115} INFO - [2023-05-07 04:14:17,846] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 04:14:17,865] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.117 seconds
+[2023-05-07 05:01:49,794] {processor.py:153} INFO - Started process (PID=2646) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 05:01:49,795] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 05:01:49,797] {logging_mixin.py:115} INFO - [2023-05-07 05:01:49,797] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 05:01:49,818] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 05:01:49,855] {logging_mixin.py:115} INFO - [2023-05-07 05:01:49,855] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 05:01:49,877] {logging_mixin.py:115} INFO - [2023-05-07 05:01:49,877] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 05:01:49,894] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.106 seconds
+[2023-05-07 05:52:20,132] {processor.py:153} INFO - Started process (PID=2660) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 05:52:20,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 05:52:20,136] {logging_mixin.py:115} INFO - [2023-05-07 05:52:20,136] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 05:52:20,163] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 05:52:20,245] {logging_mixin.py:115} INFO - [2023-05-07 05:52:20,245] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 05:52:20,301] {logging_mixin.py:115} INFO - [2023-05-07 05:52:20,301] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 05:52:20,334] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.204 seconds
+[2023-05-07 06:45:14,287] {processor.py:153} INFO - Started process (PID=2674) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 06:45:14,289] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 06:45:14,291] {logging_mixin.py:115} INFO - [2023-05-07 06:45:14,290] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 06:45:14,311] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 06:45:14,352] {logging_mixin.py:115} INFO - [2023-05-07 06:45:14,352] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 06:45:14,378] {logging_mixin.py:115} INFO - [2023-05-07 06:45:14,378] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 06:45:14,397] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.114 seconds
+[2023-05-07 07:15:53,225] {processor.py:153} INFO - Started process (PID=2688) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 07:15:53,238] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 07:15:53,240] {logging_mixin.py:115} INFO - [2023-05-07 07:15:53,240] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 07:15:53,309] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 07:15:53,385] {logging_mixin.py:115} INFO - [2023-05-07 07:15:53,385] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 07:15:53,432] {logging_mixin.py:115} INFO - [2023-05-07 07:15:53,431] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 07:15:53,464] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.251 seconds
+[2023-05-07 08:04:48,207] {processor.py:153} INFO - Started process (PID=2702) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 08:04:48,209] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 08:04:48,210] {logging_mixin.py:115} INFO - [2023-05-07 08:04:48,210] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 08:04:48,229] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 08:04:48,263] {logging_mixin.py:115} INFO - [2023-05-07 08:04:48,263] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 08:04:48,291] {logging_mixin.py:115} INFO - [2023-05-07 08:04:48,291] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 08:04:48,308] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.105 seconds
+[2023-05-07 08:54:26,338] {processor.py:153} INFO - Started process (PID=2716) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 08:54:26,340] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 08:54:26,341] {logging_mixin.py:115} INFO - [2023-05-07 08:54:26,341] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 08:54:26,362] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 08:54:26,397] {logging_mixin.py:115} INFO - [2023-05-07 08:54:26,396] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 08:54:26,417] {logging_mixin.py:115} INFO - [2023-05-07 08:54:26,417] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 08:54:26,435] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.100 seconds
+[2023-05-07 09:42:20,624] {processor.py:153} INFO - Started process (PID=2730) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 09:42:20,626] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 09:42:20,628] {logging_mixin.py:115} INFO - [2023-05-07 09:42:20,628] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 09:42:20,650] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 09:42:20,692] {logging_mixin.py:115} INFO - [2023-05-07 09:42:20,691] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 09:42:20,715] {logging_mixin.py:115} INFO - [2023-05-07 09:42:20,715] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 09:42:20,737] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.116 seconds
+[2023-05-07 10:14:32,898] {processor.py:153} INFO - Started process (PID=2743) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 10:14:32,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 10:14:32,905] {logging_mixin.py:115} INFO - [2023-05-07 10:14:32,905] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 10:14:32,979] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 10:14:33,104] {logging_mixin.py:115} INFO - [2023-05-07 10:14:33,104] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 10:14:33,158] {logging_mixin.py:115} INFO - [2023-05-07 10:14:33,158] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 10:14:33,201] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.322 seconds
+[2023-05-07 11:03:14,192] {processor.py:153} INFO - Started process (PID=2758) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:03:14,196] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 11:03:14,199] {logging_mixin.py:115} INFO - [2023-05-07 11:03:14,199] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:03:14,243] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:03:14,323] {logging_mixin.py:115} INFO - [2023-05-07 11:03:14,322] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 11:03:14,374] {logging_mixin.py:115} INFO - [2023-05-07 11:03:14,374] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 11:03:14,422] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.246 seconds
+[2023-05-07 11:20:51,605] {processor.py:153} INFO - Started process (PID=2772) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:20:51,607] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 11:20:51,609] {logging_mixin.py:115} INFO - [2023-05-07 11:20:51,609] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:20:51,629] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:20:51,672] {logging_mixin.py:115} INFO - [2023-05-07 11:20:51,671] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 11:20:51,695] {logging_mixin.py:115} INFO - [2023-05-07 11:20:51,695] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 11:20:51,712] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.111 seconds
+[2023-05-07 11:21:21,829] {processor.py:153} INFO - Started process (PID=2786) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:21:21,835] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 11:21:21,836] {logging_mixin.py:115} INFO - [2023-05-07 11:21:21,836] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:21:21,854] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:21:21,892] {logging_mixin.py:115} INFO - [2023-05-07 11:21:21,892] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 11:21:21,914] {logging_mixin.py:115} INFO - [2023-05-07 11:21:21,914] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 11:21:21,931] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.106 seconds
+[2023-05-07 11:39:25,990] {processor.py:153} INFO - Started process (PID=2800) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:39:25,991] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 11:39:25,993] {logging_mixin.py:115} INFO - [2023-05-07 11:39:25,993] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:39:26,013] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 11:39:26,048] {logging_mixin.py:115} INFO - [2023-05-07 11:39:26,048] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 11:39:26,068] {logging_mixin.py:115} INFO - [2023-05-07 11:39:26,068] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-05T12:00:00+00:00, run_after=2023-05-06T12:00:00+00:00
+[2023-05-07 11:39:26,086] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.102 seconds
+[2023-05-07 12:28:53,686] {processor.py:153} INFO - Started process (PID=2813) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 12:28:53,700] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 12:28:53,705] {logging_mixin.py:115} INFO - [2023-05-07 12:28:53,705] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 12:28:53,806] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 12:28:53,891] {logging_mixin.py:115} INFO - [2023-05-07 12:28:53,891] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 12:28:53,926] {logging_mixin.py:115} INFO - [2023-05-07 12:28:53,926] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 12:28:53,955] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.285 seconds
+[2023-05-07 13:17:50,771] {processor.py:153} INFO - Started process (PID=2828) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 13:17:50,776] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 13:17:50,779] {logging_mixin.py:115} INFO - [2023-05-07 13:17:50,779] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 13:17:50,840] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 13:17:50,948] {logging_mixin.py:115} INFO - [2023-05-07 13:17:50,948] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 13:17:50,995] {logging_mixin.py:115} INFO - [2023-05-07 13:17:50,995] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 13:17:51,043] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.296 seconds
+[2023-05-07 13:52:51,132] {processor.py:153} INFO - Started process (PID=2842) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 13:52:51,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 13:52:51,136] {logging_mixin.py:115} INFO - [2023-05-07 13:52:51,136] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 13:52:51,164] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 13:52:51,201] {logging_mixin.py:115} INFO - [2023-05-07 13:52:51,201] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 13:52:51,223] {logging_mixin.py:115} INFO - [2023-05-07 13:52:51,223] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 13:52:51,238] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.109 seconds
+[2023-05-07 14:42:48,297] {processor.py:153} INFO - Started process (PID=2856) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 14:42:48,307] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 14:42:48,309] {logging_mixin.py:115} INFO - [2023-05-07 14:42:48,309] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 14:42:48,326] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 14:42:48,362] {logging_mixin.py:115} INFO - [2023-05-07 14:42:48,362] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 14:42:48,382] {logging_mixin.py:115} INFO - [2023-05-07 14:42:48,382] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 14:42:48,397] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.103 seconds
+[2023-05-07 15:33:30,513] {processor.py:153} INFO - Started process (PID=2869) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 15:33:30,519] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 15:33:30,522] {logging_mixin.py:115} INFO - [2023-05-07 15:33:30,522] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 15:33:30,581] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 15:33:30,673] {logging_mixin.py:115} INFO - [2023-05-07 15:33:30,673] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 15:33:30,724] {logging_mixin.py:115} INFO - [2023-05-07 15:33:30,724] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 15:33:30,770] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.280 seconds
+[2023-05-07 16:23:28,234] {processor.py:153} INFO - Started process (PID=2884) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 16:23:28,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 16:23:28,242] {logging_mixin.py:115} INFO - [2023-05-07 16:23:28,241] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 16:23:28,279] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 16:23:28,362] {logging_mixin.py:115} INFO - [2023-05-07 16:23:28,362] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 16:23:28,395] {logging_mixin.py:115} INFO - [2023-05-07 16:23:28,395] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 16:23:28,429] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.203 seconds
+[2023-05-07 16:54:50,879] {processor.py:153} INFO - Started process (PID=2898) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 16:54:50,881] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 16:54:50,883] {logging_mixin.py:115} INFO - [2023-05-07 16:54:50,882] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 16:54:50,901] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 16:54:50,943] {logging_mixin.py:115} INFO - [2023-05-07 16:54:50,943] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 16:54:50,965] {logging_mixin.py:115} INFO - [2023-05-07 16:54:50,965] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 16:54:50,981] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.105 seconds
+[2023-05-07 17:44:17,121] {processor.py:153} INFO - Started process (PID=2912) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 17:44:17,138] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 17:44:17,160] {logging_mixin.py:115} INFO - [2023-05-07 17:44:17,160] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 17:44:17,230] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 17:44:17,305] {logging_mixin.py:115} INFO - [2023-05-07 17:44:17,305] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 17:44:17,360] {logging_mixin.py:115} INFO - [2023-05-07 17:44:17,360] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 17:44:17,414] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.305 seconds
+[2023-05-07 18:33:21,340] {processor.py:153} INFO - Started process (PID=2925) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 18:33:21,344] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 18:33:21,346] {logging_mixin.py:115} INFO - [2023-05-07 18:33:21,346] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 18:33:21,403] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 18:33:21,511] {logging_mixin.py:115} INFO - [2023-05-07 18:33:21,511] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 18:33:21,564] {logging_mixin.py:115} INFO - [2023-05-07 18:33:21,564] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 18:33:21,637] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.307 seconds
+[2023-05-07 19:05:11,697] {processor.py:153} INFO - Started process (PID=2939) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 19:05:11,699] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 19:05:11,713] {logging_mixin.py:115} INFO - [2023-05-07 19:05:11,709] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 19:05:11,792] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 19:05:11,893] {logging_mixin.py:115} INFO - [2023-05-07 19:05:11,893] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 19:05:11,970] {logging_mixin.py:115} INFO - [2023-05-07 19:05:11,970] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 19:05:12,050] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.366 seconds
+[2023-05-07 19:54:04,761] {processor.py:153} INFO - Started process (PID=2954) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 19:54:04,763] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 19:54:04,765] {logging_mixin.py:115} INFO - [2023-05-07 19:54:04,765] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 19:54:04,798] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 19:54:04,863] {logging_mixin.py:115} INFO - [2023-05-07 19:54:04,863] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 19:54:04,926] {logging_mixin.py:115} INFO - [2023-05-07 19:54:04,926] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 19:54:05,043] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.287 seconds
+[2023-05-07 20:41:56,249] {processor.py:153} INFO - Started process (PID=2968) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 20:41:56,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 20:41:56,253] {logging_mixin.py:115} INFO - [2023-05-07 20:41:56,253] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 20:41:56,271] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 20:41:56,309] {logging_mixin.py:115} INFO - [2023-05-07 20:41:56,309] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 20:41:56,330] {logging_mixin.py:115} INFO - [2023-05-07 20:41:56,330] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 20:41:56,348] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.103 seconds
+[2023-05-07 21:32:39,367] {processor.py:153} INFO - Started process (PID=2981) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 21:32:39,382] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 21:32:39,384] {logging_mixin.py:115} INFO - [2023-05-07 21:32:39,384] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 21:32:39,447] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 21:32:39,549] {logging_mixin.py:115} INFO - [2023-05-07 21:32:39,549] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 21:32:39,600] {logging_mixin.py:115} INFO - [2023-05-07 21:32:39,600] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 21:32:39,639] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.285 seconds
+[2023-05-07 22:06:58,742] {processor.py:153} INFO - Started process (PID=2995) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 22:06:58,746] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 22:06:58,753] {logging_mixin.py:115} INFO - [2023-05-07 22:06:58,753] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 22:06:58,828] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 22:06:58,913] {logging_mixin.py:115} INFO - [2023-05-07 22:06:58,913] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 22:06:58,938] {logging_mixin.py:115} INFO - [2023-05-07 22:06:58,938] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 22:06:58,957] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.224 seconds
+[2023-05-07 22:56:55,268] {processor.py:153} INFO - Started process (PID=3010) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 22:56:55,271] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 22:56:55,273] {logging_mixin.py:115} INFO - [2023-05-07 22:56:55,273] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 22:56:55,293] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 22:56:55,328] {logging_mixin.py:115} INFO - [2023-05-07 22:56:55,328] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 22:56:55,347] {logging_mixin.py:115} INFO - [2023-05-07 22:56:55,347] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 22:56:55,366] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.102 seconds
+[2023-05-07 23:45:18,440] {processor.py:153} INFO - Started process (PID=3024) to work on /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 23:45:18,448] {processor.py:641} INFO - Processing file /opt/airflow/dags/kubePodOpDag.py for tasks to queue
+[2023-05-07 23:45:18,452] {logging_mixin.py:115} INFO - [2023-05-07 23:45:18,452] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 23:45:18,569] {processor.py:651} INFO - DAG(s) dict_keys(['hello_KubePodOp']) retrieved from /opt/airflow/dags/kubePodOpDag.py
+[2023-05-07 23:45:18,687] {logging_mixin.py:115} INFO - [2023-05-07 23:45:18,686] {dag.py:2420} INFO - Sync 1 DAGs
+[2023-05-07 23:45:18,735] {logging_mixin.py:115} INFO - [2023-05-07 23:45:18,735] {dag.py:2968} INFO - Setting next_dagrun for hello_KubePodOp to 2023-05-06T12:00:00+00:00, run_after=2023-05-07T12:00:00+00:00
+[2023-05-07 23:45:18,774] {processor.py:161} INFO - Processing /opt/airflow/dags/kubePodOpDag.py took 0.342 seconds

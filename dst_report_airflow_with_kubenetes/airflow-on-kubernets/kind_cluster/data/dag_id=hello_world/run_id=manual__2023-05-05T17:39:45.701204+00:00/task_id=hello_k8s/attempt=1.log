@@ -1,0 +1,25 @@
+[2023-05-05 17:39:49,229] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: hello_world.hello_k8s manual__2023-05-05T17:39:45.701204+00:00 [queued]>
+[2023-05-05 17:39:49,238] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: hello_world.hello_k8s manual__2023-05-05T17:39:45.701204+00:00 [queued]>
+[2023-05-05 17:39:49,239] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-05 17:39:49,241] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-05 17:39:49,242] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-05 17:39:49,255] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): hello_k8s> on 2023-05-05 17:39:45.701204+00:00
+[2023-05-05 17:39:49,259] {standard_task_runner.py:52} INFO - Started process 18 to run task
+[2023-05-05 17:39:49,263] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world', 'hello_k8s', 'manual__2023-05-05T17:39:45.701204+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/helloWorld.py', '--cfg-path', '/tmp/tmpnbz3xbe_', '--error-file', '/tmp/tmp96hlq7k8']
+[2023-05-05 17:39:49,265] {standard_task_runner.py:80} INFO - Job 2: Subtask hello_k8s
+[2023-05-05 17:39:49,321] {task_command.py:371} INFO - Running <TaskInstance: hello_world.hello_k8s manual__2023-05-05T17:39:45.701204+00:00 [running]> on host helloworldhellok8s-d0d66429bd7f4bcfbe74bd75ca286177
+[2023-05-05 17:39:50,292] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-05 17:39:50,304] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=hello_world
+AIRFLOW_CTX_TASK_ID=hello_k8s
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-05T17:39:45.701204+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-05T17:39:45.701204+00:00
+[2023-05-05 17:39:50,305] {logging_mixin.py:115} INFO - Hello world from first Airflow DAG!
+[2023-05-05 17:39:50,306] {python.py:173} INFO - Done. Returned value was: None
+[2023-05-05 17:39:50,314] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=hello_world, task_id=hello_k8s, execution_date=20230505T173945, start_date=20230505T173949, end_date=20230505T173950
+[2023-05-05 17:39:50,369] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-05 17:39:50,387] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

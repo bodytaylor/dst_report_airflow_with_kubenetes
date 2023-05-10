@@ -1,0 +1,25 @@
+[2023-05-09 19:22:48,068] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: example_kubernetes_executor_config.start_task manual__2023-05-09T19:22:42.358862+00:00 [queued]>
+[2023-05-09 19:22:48,082] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: example_kubernetes_executor_config.start_task manual__2023-05-09T19:22:42.358862+00:00 [queued]>
+[2023-05-09 19:22:48,084] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 19:22:48,085] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-09 19:22:48,086] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 19:22:48,101] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): start_task> on 2023-05-09 19:22:42.358862+00:00
+[2023-05-09 19:22:48,105] {standard_task_runner.py:52} INFO - Started process 18 to run task
+[2023-05-09 19:22:48,110] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'example_kubernetes_executor_config', 'start_task', 'manual__2023-05-09T19:22:42.358862+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/test_dag.py', '--cfg-path', '/tmp/tmpzoks7u1i', '--error-file', '/tmp/tmpy6sw6fau']
+[2023-05-09 19:22:48,113] {standard_task_runner.py:80} INFO - Job 4: Subtask start_task
+[2023-05-09 19:22:48,188] {task_command.py:371} INFO - Running <TaskInstance: example_kubernetes_executor_config.start_task manual__2023-05-09T19:22:42.358862+00:00 [running]> on host examplekubernetesexecutorconfi-cbc7b9ece5674e8d809118e72be17612
+[2023-05-09 19:22:48,367] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-09 19:22:48,384] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=example_kubernetes_executor_config
+AIRFLOW_CTX_TASK_ID=start_task
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-09T19:22:42.358862+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-09T19:22:42.358862+00:00
+[2023-05-09 19:22:48,387] {logging_mixin.py:115} INFO - annotated!
+[2023-05-09 19:22:48,388] {python.py:173} INFO - Done. Returned value was: None
+[2023-05-09 19:22:48,399] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=example_kubernetes_executor_config, task_id=start_task, execution_date=20230509T192242, start_date=20230509T192248, end_date=20230509T192248
+[2023-05-09 19:22:48,446] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-09 19:22:48,493] {local_task_job.py:273} INFO - 4 downstream tasks scheduled from follow-on schedule check

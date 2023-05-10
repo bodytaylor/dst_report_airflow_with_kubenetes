@@ -1,0 +1,28 @@
+[2023-05-10 16:26:48,308] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.clear_temp_files manual__2023-05-10T16:26:28.433768+00:00 [queued]>
+[2023-05-10 16:26:48,316] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.clear_temp_files manual__2023-05-10T16:26:28.433768+00:00 [queued]>
+[2023-05-10 16:26:48,317] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 16:26:48,318] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-10 16:26:48,319] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 16:26:48,330] {taskinstance.py:1397} INFO - Executing <Task(BashOperator): clear_temp_files> on 2023-05-10 16:26:28.433768+00:00
+[2023-05-10 16:26:48,334] {standard_task_runner.py:52} INFO - Started process 21 to run task
+[2023-05-10 16:26:48,337] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_attachment_from_dst_gmail', 'clear_temp_files', 'manual__2023-05-10T16:26:28.433768+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/get_monthly_report_from_gmail.py', '--cfg-path', '/tmp/tmpf45_vwu6', '--error-file', '/tmp/tmpsdnvm75p']
+[2023-05-10 16:26:48,338] {standard_task_runner.py:80} INFO - Job 62: Subtask clear_temp_files
+[2023-05-10 16:26:48,391] {task_command.py:371} INFO - Running <TaskInstance: get_attachment_from_dst_gmail.clear_temp_files manual__2023-05-10T16:26:28.433768+00:00 [running]> on host getattachmentfromdstgmailclear-e34caae230524fd280342d0197f4a0a9
+[2023-05-10 16:26:49,141] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-10 16:26:49,149] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_attachment_from_dst_gmail
+AIRFLOW_CTX_TASK_ID=clear_temp_files
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-10T16:26:28.433768+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-10T16:26:28.433768+00:00
+[2023-05-10 16:26:49,151] {subprocess.py:62} INFO - Tmp dir root location: 
+ /tmp
+[2023-05-10 16:26:49,152] {subprocess.py:74} INFO - Running command: ['bash', '-c', 'rm -rf /foo/files/']
+[2023-05-10 16:26:49,160] {subprocess.py:85} INFO - Output:
+[2023-05-10 16:26:49,164] {subprocess.py:96} INFO - Command exited with return code 0
+[2023-05-10 16:26:49,186] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=get_attachment_from_dst_gmail, task_id=clear_temp_files, execution_date=20230510T162628, start_date=20230510T162648, end_date=20230510T162649
+[2023-05-10 16:26:49,239] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-10 16:26:49,256] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

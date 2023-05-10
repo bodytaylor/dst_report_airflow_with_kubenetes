@@ -1,0 +1,33 @@
+[2023-05-10 10:01:11,790] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.get_attachment_and_cleansing manual__2023-05-10T10:01:07.177082+00:00 [queued]>
+[2023-05-10 10:01:11,803] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.get_attachment_and_cleansing manual__2023-05-10T10:01:07.177082+00:00 [queued]>
+[2023-05-10 10:01:11,804] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 10:01:11,805] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-10 10:01:11,806] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 10:01:11,819] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_attachment_and_cleansing> on 2023-05-10 10:01:07.177082+00:00
+[2023-05-10 10:01:11,823] {standard_task_runner.py:52} INFO - Started process 22 to run task
+[2023-05-10 10:01:11,828] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_attachment_from_dst_gmail', 'get_attachment_and_cleansing', 'manual__2023-05-10T10:01:07.177082+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/get_file_from_gmail.py', '--cfg-path', '/tmp/tmputsp6a8u', '--error-file', '/tmp/tmpsn3ym9jy']
+[2023-05-10 10:01:11,830] {standard_task_runner.py:80} INFO - Job 41: Subtask get_attachment_and_cleansing
+[2023-05-10 10:01:11,899] {task_command.py:371} INFO - Running <TaskInstance: get_attachment_from_dst_gmail.get_attachment_and_cleansing manual__2023-05-10T10:01:07.177082+00:00 [running]> on host getattachmentfromdstgmailgetat-a5c82f3cfc314122a36254892724aba9
+[2023-05-10 10:01:12,694] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-10 10:01:12,704] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_attachment_from_dst_gmail
+AIRFLOW_CTX_TASK_ID=get_attachment_and_cleansing
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-10T10:01:07.177082+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-10T10:01:07.177082+00:00
+[2023-05-10 10:01:12,706] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/get_file_from_gmail.py", line 86, in data_cleansing
+    with open(f"{directory}raw_data.csv", "w") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/foo/files/raw_data.csv'
+[2023-05-10 10:01:12,712] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=get_attachment_from_dst_gmail, task_id=get_attachment_and_cleansing, execution_date=20230510T100107, start_date=20230510T100111, end_date=20230510T100112
+[2023-05-10 10:01:12,725] {standard_task_runner.py:92} ERROR - Failed to execute job 41 for task get_attachment_and_cleansing ([Errno 2] No such file or directory: '/foo/files/raw_data.csv'; 22)
+[2023-05-10 10:01:12,769] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-05-10 10:01:12,795] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

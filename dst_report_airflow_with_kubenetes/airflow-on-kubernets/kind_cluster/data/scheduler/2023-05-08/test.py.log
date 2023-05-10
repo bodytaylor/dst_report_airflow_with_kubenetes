@@ -1,0 +1,816 @@
+[2023-05-08 06:34:57,510] {processor.py:153} INFO - Started process (PID=51) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:34:57,512] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:34:57,513] {logging_mixin.py:115} INFO - [2023-05-08 06:34:57,513] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:34:57,565] {logging_mixin.py:115} INFO - [2023-05-08 06:34:57,563] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:34:57,567] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:34:57,612] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.104 seconds
+[2023-05-08 06:35:27,711] {processor.py:153} INFO - Started process (PID=63) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:35:27,714] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:35:27,716] {logging_mixin.py:115} INFO - [2023-05-08 06:35:27,716] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:35:27,768] {logging_mixin.py:115} INFO - [2023-05-08 06:35:27,766] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:35:27,770] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:35:27,801] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.094 seconds
+[2023-05-08 06:35:57,973] {processor.py:153} INFO - Started process (PID=85) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:35:57,975] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:35:57,977] {logging_mixin.py:115} INFO - [2023-05-08 06:35:57,977] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:35:58,033] {logging_mixin.py:115} INFO - [2023-05-08 06:35:58,031] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:35:58,035] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:35:58,066] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.096 seconds
+[2023-05-08 06:36:28,243] {processor.py:153} INFO - Started process (PID=108) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:36:28,246] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:36:28,248] {logging_mixin.py:115} INFO - [2023-05-08 06:36:28,248] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:36:28,295] {logging_mixin.py:115} INFO - [2023-05-08 06:36:28,294] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:36:28,296] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:36:28,327] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.088 seconds
+[2023-05-08 06:36:58,523] {processor.py:153} INFO - Started process (PID=130) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:36:58,524] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:36:58,526] {logging_mixin.py:115} INFO - [2023-05-08 06:36:58,525] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:36:58,567] {logging_mixin.py:115} INFO - [2023-05-08 06:36:58,565] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:36:58,570] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:36:58,598] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.079 seconds
+[2023-05-08 06:37:28,774] {processor.py:153} INFO - Started process (PID=152) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:37:28,775] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:37:28,777] {logging_mixin.py:115} INFO - [2023-05-08 06:37:28,776] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:37:28,833] {logging_mixin.py:115} INFO - [2023-05-08 06:37:28,832] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:37:28,836] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:37:28,869] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.099 seconds
+[2023-05-08 06:37:59,069] {processor.py:153} INFO - Started process (PID=174) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:37:59,071] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:37:59,073] {logging_mixin.py:115} INFO - [2023-05-08 06:37:59,073] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:37:59,119] {logging_mixin.py:115} INFO - [2023-05-08 06:37:59,118] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:37:59,125] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:37:59,157] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2023-05-08 06:38:29,337] {processor.py:153} INFO - Started process (PID=196) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:38:29,339] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:38:29,340] {logging_mixin.py:115} INFO - [2023-05-08 06:38:29,340] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:38:29,384] {logging_mixin.py:115} INFO - [2023-05-08 06:38:29,383] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:38:29,385] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:38:29,419] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.084 seconds
+[2023-05-08 06:38:59,613] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:38:59,615] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:38:59,616] {logging_mixin.py:115} INFO - [2023-05-08 06:38:59,616] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:38:59,660] {logging_mixin.py:115} INFO - [2023-05-08 06:38:59,659] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:38:59,662] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:38:59,691] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.080 seconds
+[2023-05-08 06:39:29,848] {processor.py:153} INFO - Started process (PID=240) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:39:29,858] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:39:29,860] {logging_mixin.py:115} INFO - [2023-05-08 06:39:29,860] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:39:29,907] {logging_mixin.py:115} INFO - [2023-05-08 06:39:29,906] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:39:29,910] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:39:29,939] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.094 seconds
+[2023-05-08 06:40:00,156] {processor.py:153} INFO - Started process (PID=262) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:40:00,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:40:00,159] {logging_mixin.py:115} INFO - [2023-05-08 06:40:00,159] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:40:00,203] {logging_mixin.py:115} INFO - [2023-05-08 06:40:00,202] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:40:00,204] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:40:00,234] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.082 seconds
+[2023-05-08 06:40:30,521] {processor.py:153} INFO - Started process (PID=284) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:40:30,523] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:40:30,524] {logging_mixin.py:115} INFO - [2023-05-08 06:40:30,524] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:40:30,568] {logging_mixin.py:115} INFO - [2023-05-08 06:40:30,567] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:40:30,569] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:40:30,598] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.081 seconds
+[2023-05-08 06:41:00,770] {processor.py:153} INFO - Started process (PID=306) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:41:00,771] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:41:00,773] {logging_mixin.py:115} INFO - [2023-05-08 06:41:00,773] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:41:00,822] {logging_mixin.py:115} INFO - [2023-05-08 06:41:00,821] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:41:00,825] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:41:00,856] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.090 seconds
+[2023-05-08 06:41:30,999] {processor.py:153} INFO - Started process (PID=328) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:41:31,001] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:41:31,002] {logging_mixin.py:115} INFO - [2023-05-08 06:41:31,002] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:41:31,040] {logging_mixin.py:115} INFO - [2023-05-08 06:41:31,039] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:41:31,043] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:41:31,070] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.074 seconds
+[2023-05-08 06:42:01,279] {processor.py:153} INFO - Started process (PID=350) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:42:01,280] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:42:01,292] {logging_mixin.py:115} INFO - [2023-05-08 06:42:01,292] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:42:01,330] {logging_mixin.py:115} INFO - [2023-05-08 06:42:01,329] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:42:01,332] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:42:01,361] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.087 seconds
+[2023-05-08 06:42:31,499] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:42:31,502] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:42:31,503] {logging_mixin.py:115} INFO - [2023-05-08 06:42:31,503] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:42:31,539] {logging_mixin.py:115} INFO - [2023-05-08 06:42:31,538] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:42:31,541] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:42:31,569] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.073 seconds
+[2023-05-08 06:43:01,750] {processor.py:153} INFO - Started process (PID=394) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:43:01,752] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:43:01,754] {logging_mixin.py:115} INFO - [2023-05-08 06:43:01,754] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:43:01,790] {logging_mixin.py:115} INFO - [2023-05-08 06:43:01,789] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:43:01,793] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:43:01,822] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.075 seconds
+[2023-05-08 06:43:31,969] {processor.py:153} INFO - Started process (PID=416) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:43:31,971] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:43:31,973] {logging_mixin.py:115} INFO - [2023-05-08 06:43:31,973] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:43:32,013] {logging_mixin.py:115} INFO - [2023-05-08 06:43:32,012] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:43:32,016] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:43:32,045] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.079 seconds
+[2023-05-08 06:44:02,231] {processor.py:153} INFO - Started process (PID=438) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:44:02,233] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:44:02,234] {logging_mixin.py:115} INFO - [2023-05-08 06:44:02,234] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:44:02,278] {logging_mixin.py:115} INFO - [2023-05-08 06:44:02,277] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:44:02,279] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:44:02,308] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.081 seconds
+[2023-05-08 06:44:32,517] {processor.py:153} INFO - Started process (PID=460) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:44:32,533] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:44:32,548] {logging_mixin.py:115} INFO - [2023-05-08 06:44:32,548] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:44:32,611] {logging_mixin.py:115} INFO - [2023-05-08 06:44:32,610] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:44:32,638] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:44:32,693] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.180 seconds
+[2023-05-08 06:45:02,898] {processor.py:153} INFO - Started process (PID=483) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:45:02,924] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:45:02,929] {logging_mixin.py:115} INFO - [2023-05-08 06:45:02,929] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:45:03,006] {logging_mixin.py:115} INFO - [2023-05-08 06:45:03,005] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:45:03,032] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:45:03,077] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.183 seconds
+[2023-05-08 06:45:33,309] {processor.py:153} INFO - Started process (PID=503) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:45:33,312] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:45:33,315] {logging_mixin.py:115} INFO - [2023-05-08 06:45:33,315] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:45:33,516] {logging_mixin.py:115} INFO - [2023-05-08 06:45:33,513] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:45:33,530] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:45:33,661] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.366 seconds
+[2023-05-08 06:46:03,887] {processor.py:153} INFO - Started process (PID=527) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:46:03,899] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:46:03,901] {logging_mixin.py:115} INFO - [2023-05-08 06:46:03,901] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:46:03,941] {logging_mixin.py:115} INFO - [2023-05-08 06:46:03,940] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:46:03,943] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:46:03,976] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.092 seconds
+[2023-05-08 06:46:34,133] {processor.py:153} INFO - Started process (PID=548) to work on /opt/airflow/dags/test.py
+[2023-05-08 06:46:34,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/test.py for tasks to queue
+[2023-05-08 06:46:34,137] {logging_mixin.py:115} INFO - [2023-05-08 06:46:34,137] {dagbag.py:508} INFO - Filling up the DagBag from /opt/airflow/dags/test.py
+[2023-05-08 06:46:34,176] {logging_mixin.py:115} INFO - [2023-05-08 06:46:34,175] {dagbag.py:321} ERROR - Failed to import: /opt/airflow/dags/test.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 318, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/test.py", line 46, in <module>
+    get_file_from_bucket()
+  File "/opt/airflow/dags/test.py", line 18, in get_file_from_bucket
+    client = storage.Client()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/storage/client.py", line 124, in __init__
+    super(Client, self).__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 320, in __init__
+    _ClientProjectMixin.__init__(self, project=project, credentials=credentials)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 268, in __init__
+    project = self._determine_default(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/client/__init__.py", line 287, in _determine_default
+    return _determine_default_project(project)
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/cloud/_helpers/__init__.py", line 152, in _determine_default_project
+    _, project = google.auth.default()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 583, in default
+    credentials, project_id = checker()
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 576, in <lambda>
+    lambda: _get_explicit_environ_credentials(quota_project_id=quota_project_id),
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 225, in _get_explicit_environ_credentials
+    credentials, project_id = load_credentials_from_file(
+  File "/home/airflow/.local/lib/python3.8/site-packages/google/auth/_default.py", line 119, in load_credentials_from_file
+    raise exceptions.DefaultCredentialsError(
+google.auth.exceptions.DefaultCredentialsError: File Users/bodytaylor/airflow_kubernetes/airflow-on-kubernets/airflow-dags/credentials/dstreportdata-48acf2cbeed0.json was not found.
+[2023-05-08 06:46:34,178] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/test.py
+[2023-05-08 06:46:34,210] {processor.py:161} INFO - Processing /opt/airflow/dags/test.py took 0.082 seconds

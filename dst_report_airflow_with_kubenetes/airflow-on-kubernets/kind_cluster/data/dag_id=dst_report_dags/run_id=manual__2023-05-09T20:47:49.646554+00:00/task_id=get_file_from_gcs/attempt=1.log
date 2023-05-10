@@ -1,0 +1,35 @@
+[2023-05-09 20:47:56,835] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.get_file_from_gcs manual__2023-05-09T20:47:49.646554+00:00 [queued]>
+[2023-05-09 20:47:56,858] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.get_file_from_gcs manual__2023-05-09T20:47:49.646554+00:00 [queued]>
+[2023-05-09 20:47:56,859] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 20:47:56,861] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-09 20:47:56,862] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 20:47:56,924] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_file_from_gcs> on 2023-05-09 20:47:49.646554+00:00
+[2023-05-09 20:47:56,933] {standard_task_runner.py:52} INFO - Started process 22 to run task
+[2023-05-09 20:47:56,943] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dst_report_dags', 'get_file_from_gcs', 'manual__2023-05-09T20:47:49.646554+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dst_report_dags.py', '--cfg-path', '/tmp/tmp5cbf8qay', '--error-file', '/tmp/tmp1mbyya76']
+[2023-05-09 20:47:56,947] {standard_task_runner.py:80} INFO - Job 8: Subtask get_file_from_gcs
+[2023-05-09 20:47:57,074] {task_command.py:371} INFO - Running <TaskInstance: dst_report_dags.get_file_from_gcs manual__2023-05-09T20:47:49.646554+00:00 [running]> on host dstreportdagsgetfilefromgcs-b7babdb3d07e492cafffe24d41bb7261
+[2023-05-09 20:47:58,468] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-09 20:47:58,485] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dst_report_dags
+AIRFLOW_CTX_TASK_ID=get_file_from_gcs
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-09T20:47:49.646554+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-09T20:47:49.646554+00:00
+[2023-05-09 20:47:59,227] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dst_report_dags.py", line 42, in get_file_from_gcs
+    os.makedirs(directory)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/foo/'
+[2023-05-09 20:47:59,244] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=dst_report_dags, task_id=get_file_from_gcs, execution_date=20230509T204749, start_date=20230509T204756, end_date=20230509T204759
+[2023-05-09 20:47:59,306] {standard_task_runner.py:92} ERROR - Failed to execute job 8 for task get_file_from_gcs ([Errno 13] Permission denied: '/foo/'; 22)
+[2023-05-09 20:47:59,370] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-05-09 20:47:59,420] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

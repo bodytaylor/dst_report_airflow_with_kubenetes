@@ -1,0 +1,24 @@
+[2023-05-10 09:06:38,555] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.get_file_from_gcs manual__2023-05-10T09:06:33.705704+00:00 [queued]>
+[2023-05-10 09:06:38,563] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.get_file_from_gcs manual__2023-05-10T09:06:33.705704+00:00 [queued]>
+[2023-05-10 09:06:38,564] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 09:06:38,565] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-10 09:06:38,565] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 09:06:38,575] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_file_from_gcs> on 2023-05-10 09:06:33.705704+00:00
+[2023-05-10 09:06:38,579] {standard_task_runner.py:52} INFO - Started process 22 to run task
+[2023-05-10 09:06:38,583] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dst_report_dags', 'get_file_from_gcs', 'manual__2023-05-10T09:06:33.705704+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/dst_report_dags.py', '--cfg-path', '/tmp/tmpnlxylxg8', '--error-file', '/tmp/tmph3lqhd33']
+[2023-05-10 09:06:38,584] {standard_task_runner.py:80} INFO - Job 31: Subtask get_file_from_gcs
+[2023-05-10 09:06:38,647] {task_command.py:371} INFO - Running <TaskInstance: dst_report_dags.get_file_from_gcs manual__2023-05-10T09:06:33.705704+00:00 [running]> on host dstreportdagsgetfilefromgcs-50caef7c9c694489bf40b929b6050488
+[2023-05-10 09:06:39,455] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-10 09:06:39,468] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dst_report_dags
+AIRFLOW_CTX_TASK_ID=get_file_from_gcs
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-10T09:06:33.705704+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-10T09:06:33.705704+00:00
+[2023-05-10 09:06:40,913] {python.py:173} INFO - Done. Returned value was: None
+[2023-05-10 09:06:40,931] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=dst_report_dags, task_id=get_file_from_gcs, execution_date=20230510T090633, start_date=20230510T090638, end_date=20230510T090640
+[2023-05-10 09:06:40,985] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-10 09:06:41,014] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

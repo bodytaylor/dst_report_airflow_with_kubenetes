@@ -1,0 +1,24 @@
+[2023-05-10 10:08:45,318] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.write_to_blob manual__2023-05-10T10:08:33.971514+00:00 [queued]>
+[2023-05-10 10:08:45,326] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.write_to_blob manual__2023-05-10T10:08:33.971514+00:00 [queued]>
+[2023-05-10 10:08:45,327] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 10:08:45,328] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-10 10:08:45,328] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 10:08:45,338] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): write_to_blob> on 2023-05-10 10:08:33.971514+00:00
+[2023-05-10 10:08:45,342] {standard_task_runner.py:52} INFO - Started process 22 to run task
+[2023-05-10 10:08:45,345] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_attachment_from_dst_gmail', 'write_to_blob', 'manual__2023-05-10T10:08:33.971514+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/get_file_from_gmail.py', '--cfg-path', '/tmp/tmpxjnqdfju', '--error-file', '/tmp/tmpmmq6vzlf']
+[2023-05-10 10:08:45,346] {standard_task_runner.py:80} INFO - Job 47: Subtask write_to_blob
+[2023-05-10 10:08:45,400] {task_command.py:371} INFO - Running <TaskInstance: get_attachment_from_dst_gmail.write_to_blob manual__2023-05-10T10:08:33.971514+00:00 [running]> on host getattachmentfromdstgmailwrite-b55e09fa3cef437a8f60b9e01e1fade7
+[2023-05-10 10:08:46,155] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-10 10:08:46,166] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_attachment_from_dst_gmail
+AIRFLOW_CTX_TASK_ID=write_to_blob
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-10T10:08:33.971514+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-10T10:08:33.971514+00:00
+[2023-05-10 10:08:46,629] {python.py:173} INFO - Done. Returned value was: None
+[2023-05-10 10:08:46,639] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=get_attachment_from_dst_gmail, task_id=write_to_blob, execution_date=20230510T100833, start_date=20230510T100845, end_date=20230510T100846
+[2023-05-10 10:08:46,688] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-10 10:08:46,712] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

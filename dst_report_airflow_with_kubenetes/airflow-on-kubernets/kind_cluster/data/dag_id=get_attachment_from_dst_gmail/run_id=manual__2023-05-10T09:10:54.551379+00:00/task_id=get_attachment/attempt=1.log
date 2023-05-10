@@ -1,0 +1,45 @@
+[2023-05-10 09:10:59,440] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.get_attachment manual__2023-05-10T09:10:54.551379+00:00 [queued]>
+[2023-05-10 09:10:59,452] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: get_attachment_from_dst_gmail.get_attachment manual__2023-05-10T09:10:54.551379+00:00 [queued]>
+[2023-05-10 09:10:59,453] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 09:10:59,454] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-10 09:10:59,455] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 09:10:59,470] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): get_attachment> on 2023-05-10 09:10:54.551379+00:00
+[2023-05-10 09:10:59,475] {standard_task_runner.py:52} INFO - Started process 18 to run task
+[2023-05-10 09:10:59,483] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_attachment_from_dst_gmail', 'get_attachment', 'manual__2023-05-10T09:10:54.551379+00:00', '--job-id', '36', '--raw', '--subdir', 'DAGS_FOLDER/get_file_from_gmail.py', '--cfg-path', '/tmp/tmphv7szbcu', '--error-file', '/tmp/tmp3t8lkv84']
+[2023-05-10 09:10:59,484] {standard_task_runner.py:80} INFO - Job 36: Subtask get_attachment
+[2023-05-10 09:10:59,540] {task_command.py:371} INFO - Running <TaskInstance: get_attachment_from_dst_gmail.get_attachment manual__2023-05-10T09:10:54.551379+00:00 [running]> on host getattachmentfromdstgmailgetat-62589b85f9834b15b410c928c1a551c7
+[2023-05-10 09:11:00,299] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-10 09:11:00,308] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_attachment_from_dst_gmail
+AIRFLOW_CTX_TASK_ID=get_attachment
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-10T09:10:54.551379+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-10T09:10:54.551379+00:00
+[2023-05-10 09:11:00,527] {__init__.py:48} WARNING - file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/googleapiclient/discovery_cache/file_cache.py", line 33, in <module>
+    from oauth2client.contrib.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/googleapiclient/discovery_cache/file_cache.py", line 37, in <module>
+    from oauth2client.locked_file import LockedFile
+ModuleNotFoundError: No module named 'oauth2client'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/googleapiclient/discovery_cache/__init__.py", line 44, in autodetect
+    from . import file_cache
+  File "/home/airflow/.local/lib/python3.8/site-packages/googleapiclient/discovery_cache/file_cache.py", line 40, in <module>
+    raise ImportError(
+ImportError: file_cache is unavailable when using oauth2client >= 4.0.0 or google-auth
+[2023-05-10 09:11:01,914] {python.py:173} INFO - Done. Returned value was: b'Date,Time,Room No.,Name,Trn. Code,Description,Check No.,Currency,Debit,Credit,Cash ID,User Name,Supplement/Reference/Credit Card No.,Exp. Date,Receipt No.,01/05/23,12:32,08,Xie,Siyong,Mr.,3431,Photography & Videography,114407820230501043248,THB, 10,000.00, 0.00,997-OPERA-IFC,Room# 08 : CHECK# 1144078 [4013],Grand Total, 15,000.00, 0.00,\nDate,Time,Room No.,Name,Trn. Code,Description,Check No.,Currency,Debit,Credit,Cash ID,User Name,Supplement/Reference/Credit Card No.,Exp. Date,Receipt No.,01/05/23,12:34,48,*Ye,Fei,Mr.,3431,Photography & Videography,114407920230501043433,THB, 5,000.00, 0.00,997-OPERA-IFC,Room# 48 : CHECK# 1144079 [4013],Grand Total, 15,000.00, 0.00,\n'
+[2023-05-10 09:11:01,933] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=get_attachment_from_dst_gmail, task_id=get_attachment, execution_date=20230510T091054, start_date=20230510T091059, end_date=20230510T091101
+[2023-05-10 09:11:02,001] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-10 09:11:02,024] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,27 @@
+[2023-05-10 08:00:37,955] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.upload_to_bigquary manual__2023-05-10T08:00:20.533376+00:00 [queued]>
+[2023-05-10 08:00:37,963] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.upload_to_bigquary manual__2023-05-10T08:00:20.533376+00:00 [queued]>
+[2023-05-10 08:00:37,964] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 08:00:37,965] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-10 08:00:37,966] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-10 08:00:37,975] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): upload_to_bigquary> on 2023-05-10 08:00:20.533376+00:00
+[2023-05-10 08:00:37,980] {standard_task_runner.py:52} INFO - Started process 22 to run task
+[2023-05-10 08:00:37,983] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dst_report_dags', 'upload_to_bigquary', 'manual__2023-05-10T08:00:20.533376+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/dst_report_dags.py', '--cfg-path', '/tmp/tmpqy_bgwsm', '--error-file', '/tmp/tmphf0i984s']
+[2023-05-10 08:00:37,985] {standard_task_runner.py:80} INFO - Job 21: Subtask upload_to_bigquary
+[2023-05-10 08:00:38,040] {task_command.py:371} INFO - Running <TaskInstance: dst_report_dags.upload_to_bigquary manual__2023-05-10T08:00:20.533376+00:00 [running]> on host dstreportdagsuploadtobigquary-62d8308b04c34315ac2e326f310c4d37
+[2023-05-10 08:00:38,813] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-10 08:00:38,822] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dst_report_dags
+AIRFLOW_CTX_TASK_ID=upload_to_bigquary
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-10T08:00:20.533376+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-10T08:00:20.533376+00:00
+[2023-05-10 08:00:42,788] {logging_mixin.py:115} INFO - RUNNING
+[2023-05-10 08:00:44,988] {logging_mixin.py:115} INFO - DONE
+[2023-05-10 08:00:44,989] {logging_mixin.py:115} INFO - LoadJob<project=dstreportdata, location=asia-east1, id=f0da4a47-4bdf-40a2-af45-5b2201950ec3>
+[2023-05-10 08:00:44,990] {python.py:173} INFO - Done. Returned value was: None
+[2023-05-10 08:00:45,000] {taskinstance.py:1415} INFO - Marking task as SUCCESS. dag_id=dst_report_dags, task_id=upload_to_bigquary, execution_date=20230510T080020, start_date=20230510T080037, end_date=20230510T080045
+[2023-05-10 08:00:45,068] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-05-10 08:00:45,091] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

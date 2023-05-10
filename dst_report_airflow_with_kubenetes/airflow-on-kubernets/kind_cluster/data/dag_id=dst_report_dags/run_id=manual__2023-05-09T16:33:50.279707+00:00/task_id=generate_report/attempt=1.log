@@ -1,0 +1,40 @@
+[2023-05-09 16:34:01,213] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.generate_report manual__2023-05-09T16:33:50.279707+00:00 [queued]>
+[2023-05-09 16:34:01,221] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dst_report_dags.generate_report manual__2023-05-09T16:33:50.279707+00:00 [queued]>
+[2023-05-09 16:34:01,222] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 16:34:01,223] {taskinstance.py:1377} INFO - Starting attempt 1 of 1
+[2023-05-09 16:34:01,223] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-05-09 16:34:01,232] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): generate_report> on 2023-05-09 16:33:50.279707+00:00
+[2023-05-09 16:34:01,235] {standard_task_runner.py:52} INFO - Started process 21 to run task
+[2023-05-09 16:34:01,239] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dst_report_dags', 'generate_report', 'manual__2023-05-09T16:33:50.279707+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dst_report_dags.py', '--cfg-path', '/tmp/tmplew9hqij', '--error-file', '/tmp/tmparya4mh8']
+[2023-05-09 16:34:01,241] {standard_task_runner.py:80} INFO - Job 6: Subtask generate_report
+[2023-05-09 16:34:01,294] {task_command.py:371} INFO - Running <TaskInstance: dst_report_dags.generate_report manual__2023-05-09T16:33:50.279707+00:00 [running]> on host dstreportdagsgeneratereport-f5f28472c5054be7a5db68eeddebe291
+[2023-05-09 16:34:01,994] {logging_mixin.py:115} WARNING - /home/airflow/.local/lib/python3.8/site-packages/airflow/models/renderedtifields.py:249 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2023-05-09 16:34:02,003] {taskinstance.py:1589} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dst_report_dags
+AIRFLOW_CTX_TASK_ID=generate_report
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-09T16:33:50.279707+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-05-09T16:33:50.279707+00:00
+[2023-05-09 16:34:02,005] {logging_mixin.py:115} INFO - data/*dst_revenue.csv
+[2023-05-09 16:34:02,005] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dst_report_dags.py", line 79, in join_csv
+    df_report = pd.concat(map(pd.read_csv, files), ignore_index=True)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 347, in concat
+    op = _Concatenator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/reshape/concat.py", line 404, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+[2023-05-09 16:34:02,011] {taskinstance.py:1415} INFO - Marking task as FAILED. dag_id=dst_report_dags, task_id=generate_report, execution_date=20230509T163350, start_date=20230509T163401, end_date=20230509T163402
+[2023-05-09 16:34:02,031] {standard_task_runner.py:92} ERROR - Failed to execute job 6 for task generate_report (No objects to concatenate; 21)
+[2023-05-09 16:34:02,061] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-05-09 16:34:02,078] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
