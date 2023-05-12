@@ -96,7 +96,8 @@ def data_cleansing():
                       'Cash_ID', 
                       'User_Name', 
                       'Supplement/Reference/Credit_Card_No', 
-                      'Exp_Date', 
+                      'Exp_Date',
+                      'Credit',
                       'Receipt_No', 
                       'Unnamed: 15',
                       ])
@@ -114,9 +115,6 @@ def data_cleansing():
     df['Name'] = df['Name'].replace(r'[^a-zA-Z\s.]', '', regex=True).astype(str)
     df['Debit'] = df['Debit'].str.replace(',', '').str.replace(' ', '')
     df['Debit'] = df['Debit'].astype(float)
-    # move negative values to credit column
-    df.loc[df['Debit'] < 0, 'Credit'] = -1 * df['Debit']
-    df.loc[df['Debit'] < 0, 'Debit'] = 0.0
     # format the column to string
     df['Description'] = df['Description'].astype('string')
     df['Currency'] = df['Currency'].astype('string')
